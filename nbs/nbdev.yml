@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "deep-web"
+  site-url: "https://deepconclusions.github.io/deep-web"
+  description: "Web development learning materials"
+  repo-branch: main
+  repo-url: "https://github.com/deepconclusions/deep-web"

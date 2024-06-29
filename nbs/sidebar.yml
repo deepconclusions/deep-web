@@ -1,0 +1,46 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - section: 1.HTML
+        contents:
+          - 1.HTML/00_outline.ipynb
+          - 1.HTML/01_introduction.ipynb
+          - 1.HTML/02_editors.ipynb
+          - 1.HTML/03_elements.ipynb
+          - 1.HTML/04_attributes.ipynb
+          - 1.HTML/05_comments.ipynb
+          - 1.HTML/06_styles.ipynb
+          - 1.HTML/08_links.ipynb
+          - 1.HTML/09_images.ipynb
+          - 1.HTML/10_tables.ipynb
+          - 1.HTML/11_lists.ipynb
+          - 1.HTML/12_forms.ipynb
+      - section: 2.CSS
+        contents:
+          - 2.CSS/00_outline.ipynb
+          - 2.CSS/01_introduction.ipynb
+          - 2.CSS/02_syntax.ipynb
+          - 2.CSS/03_inserting.ipynb
+          - 2.CSS/04_colors.ipynb
+          - 2.CSS/05_backgrounds.ipynb
+          - 2.CSS/06_borders.ipynb
+          - 2.CSS/07_margins.ipynb
+          - 2.CSS/08_padding.ipynb
+          - 2.CSS/09_width_and_height.ipynb
+          - 2.CSS/10_box_model.ipynb
+      - section: 3.JavaScript
+        contents:
+          - section: 3.1.JS-Basics
+            contents:
+              - 3.JavaScript/3.1.JS-Basics/00_outline.ipynb
+              - 3.JavaScript/3.1.JS-Basics/01_overview.ipynb
+              - 3.JavaScript/3.1.JS-Basics/02_introduction.ipynb
+              - 3.JavaScript/3.1.JS-Basics/03_displaying_output.ipynb
+              - 3.JavaScript/3.1.JS-Basics/04_statements.ipynb
+          - section: 3.2.JS-Data-Types
+            contents:
+              - 3.JavaScript/3.2.JS-Data-Types/00_strings.ipynb
+          - section: 3.3.JS-Operators
+            contents:
+              - 3.JavaScript/3.3.JS-Operators/0_introduction.ipynb

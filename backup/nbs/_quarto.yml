@@ -1,0 +1,66 @@
+project:
+  type: website
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+website:
+  twitter-card: true
+  open-graph: true
+  repo-actions: [issue]
+  page-navigation: true
+  back-to-top-navigation: true
+  reader-mode: true
+  favicon: assets/deepconclusions-logo.png
+  navbar:
+    background: primary
+    search: true
+    right:
+      - text: Home
+        href: "https://web.deepconclusions.com/"
+      - text: About
+        menu:
+          - text: About Us
+            url: "https://deepconclusions.com/#about"
+          - text: Privacy Policy
+            url: "https://deepconclusions.com/privacy_policy.html"
+          - text: Terms of Service
+            url: "https://deepconclusions.com/terms_of_service.html"
+      - text: Download
+        menu:
+          - text: Python 3 Beginner
+            url: "https://deepconclusions.pythonanywhere.com/school/download-course-material/1"
+          - text: Python Data Analysis
+            url: "https://deepconclusions.pythonanywhere.com/school/download-course-material/2"
+          - text: Pytorch
+            url: "https://deepconclusions.pythonanywhere.com/school/download-course-material/3"
+      - text: Subjects
+        menu:
+          - text: Data Science
+            url: "https://science.deepconclusions.com"
+          - text: Web Development
+            url: "https://web.deepconclusions.com"
+      - text: Resources
+        menu:
+          - text: Blog
+            url: "https://blog.deepconclusions.com"
+          - text: Forum
+            url: "https://chat.whatsapp.com/GuCZRyJICgO3Y7MPvDQKhi"
+          - text: French
+            url: "https://french.deepconclusions.com"
+          - text: Football
+            url: "https://football.deepconclusions.com"
+          - text: Movies
+            url: "https://movies.deepconclusions.com"
+      - text: Contact
+        href: "https://www.deepconclusions.com/#contact"
+  sidebar:
+    style: "floating"
+    twitter-card:
+    creator: "@juma_shafara"
+    site: "@deepconclusions"
+
+metadata-files: [nbdev.yml, sidebar.yml]

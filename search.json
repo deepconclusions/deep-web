@@ -1,0 +1,1366 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to deepconclusions",
+    "section": "",
+    "text": "NOTE:\n\n\n\nWe have re-develped our website to use jupyter notebooks, which is the tool we mostly use for teaching. This is so that you can access updated learning materials faster.\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.\n\n\n\n\n\nProgramming for Web Development\nProgramming for Web Development is a comprehensive subject designed to cover the various programming components essential for web development. By taking this course, you’ll learn programming techniques to build dynamic and responsive websites and applications using HTML, CSS, JavaScript, and Python with Django.\nThis subject is divided into specific courses as outlined below. The duration mentioned is an average based on our previous students’ experiences, but it can vary depending on individual learning pace:\n\nHTML (1-2 weeks)\nCSS (1-2 weeks)\nJavaScript (1 month)\nPython (1 month)\nDjango (1 month)\n\nYou can choose to take the entire subject or select specific courses that are of strong interest or most applicable to your field. However, if you’re a complete beginner, we recommend enrolling in the entire program for a comprehensive learning experience.\n\n\nCourse Details\n\nDuration: Varies based on the course units chosen\nSessions: Four times a week (one-on-one)\nTiming: Evenings and/or weekends\nLocation: Online or at UMF House, Sir Apollo Kagwa Road\n\nIf you’re serious about learning programming and preparing for roles in Web Development and Data Science, we highly encourage you to enroll in our courses. Avoid wasting time on disconnected, outdated tutorials. We offer a structured and up-to-date curriculum to help you kickstart your career.\n\n\nContact Us\nFeel free to reach out to us for more information or to enroll:\n\nEmail: deepconclusions@gmail.com\nPhone: +256701520768 / +256771754118\nWebsite: www.deepconclusions.com\n\nWe look forward to helping you achieve your learning goals!\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "Welcome to deepconclusions"
+    ]
+  },
+  {
+    "objectID": "1.HTML/11_lists.html",
+    "href": "1.HTML/11_lists.html",
+    "title": "HTML Lists",
+    "section": "",
+    "text": "HTML lists are used to organize and display information in a structured format. There are three main types of lists in HTML: ordered lists (&lt;ol&gt;), unordered lists (&lt;ul&gt;), and definition lists (&lt;dl&gt;). Understanding how to create and style lists is essential for organizing content effectively on web pages.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Lists"
+    ]
+  },
+  {
+    "objectID": "1.HTML/11_lists.html#html-lists",
+    "href": "1.HTML/11_lists.html#html-lists",
+    "title": "HTML Lists",
+    "section": "",
+    "text": "HTML lists are used to organize and display information in a structured format. There are three main types of lists in HTML: ordered lists (&lt;ol&gt;), unordered lists (&lt;ul&gt;), and definition lists (&lt;dl&gt;). Understanding how to create and style lists is essential for organizing content effectively on web pages.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Lists"
+    ]
+  },
+  {
+    "objectID": "1.HTML/11_lists.html#ordered-lists-ol",
+    "href": "1.HTML/11_lists.html#ordered-lists-ol",
+    "title": "HTML Lists",
+    "section": "Ordered Lists (<ol>)",
+    "text": "Ordered Lists (&lt;ol&gt;)\nOrdered lists are used to present items in a numbered sequence. Each item in the list is defined using the &lt;li&gt; (list item) element.\nExample:\n&lt;ol&gt;\n  &lt;li&gt;First item&lt;/li&gt;\n  &lt;li&gt;Second item&lt;/li&gt;\n  &lt;li&gt;Third item&lt;/li&gt;\n&lt;/ol&gt;\nIn this example, each item is automatically numbered by the browser.\n\n\nFirst item\n\n\nSecond item\n\n\nThird item",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Lists"
+    ]
+  },
+  {
+    "objectID": "1.HTML/11_lists.html#unordered-lists-ul",
+    "href": "1.HTML/11_lists.html#unordered-lists-ul",
+    "title": "HTML Lists",
+    "section": "Unordered Lists (<ul>)",
+    "text": "Unordered Lists (&lt;ul&gt;)\nUnordered lists are used to present items in a bulleted or unordered sequence. Each item in the list is defined using the &lt;li&gt; element.\nExample:\n&lt;ul&gt;\n  &lt;li&gt;First item&lt;/li&gt;\n  &lt;li&gt;Second item&lt;/li&gt;\n  &lt;li&gt;Third item&lt;/li&gt;\n&lt;/ul&gt;\nIn this example, each item is displayed with a bullet point by default.\n\n\nFirst item\n\n\nSecond item\n\n\nThird item",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Lists"
+    ]
+  },
+  {
+    "objectID": "1.HTML/11_lists.html#definition-lists-dl",
+    "href": "1.HTML/11_lists.html#definition-lists-dl",
+    "title": "HTML Lists",
+    "section": "Definition Lists (<dl>)",
+    "text": "Definition Lists (&lt;dl&gt;)\nDefinition lists are used to display terms and their corresponding definitions. Each term is defined using the &lt;dt&gt; (definition term) element, and each definition is defined using the &lt;dd&gt; (definition description) element.\nExample:\n&lt;dl&gt;\n  &lt;dt&gt;Term 1&lt;/dt&gt;\n  &lt;dd&gt;Definition 1&lt;/dd&gt;\n  &lt;dt&gt;Term 2&lt;/dt&gt;\n  &lt;dd&gt;Definition 2&lt;/dd&gt;\n&lt;/dl&gt;\nIn this example, each term is followed by its definition.\n\n\nTerm 1\n\n\nDefinition 1\n\n\nTerm 2\n\n\nDefinition 2",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Lists"
+    ]
+  },
+  {
+    "objectID": "1.HTML/11_lists.html#additional-list-attributes",
+    "href": "1.HTML/11_lists.html#additional-list-attributes",
+    "title": "HTML Lists",
+    "section": "Additional List Attributes",
+    "text": "Additional List Attributes\n\n1. Type Attribute (for Ordered Lists)\nThe type attribute specifies the type of numbering used in ordered lists. Common values include 1 (decimal), A (uppercase alphabetical), a (lowercase alphabetical), I (uppercase Roman numeral), and i (lowercase Roman numeral).\nExample:\n&lt;ol type=\"A\"&gt;\n  &lt;li&gt;First item&lt;/li&gt;\n  &lt;li&gt;Second item&lt;/li&gt;\n  &lt;li&gt;Third item&lt;/li&gt;\n&lt;/ol&gt;\n\n\nFirst item\n\n\nSecond item\n\n\nThird item\n\n\n\n\n2. Start Attribute (for Ordered Lists)\nThe start attribute specifies the starting value for the numbering in ordered lists.\nExample:\n&lt;ol start=\"5\"&gt;\n  &lt;li&gt;Fifth item&lt;/li&gt;\n  &lt;li&gt;Sixth item&lt;/li&gt;\n  &lt;li&gt;Seventh item&lt;/li&gt;\n&lt;/ol&gt;\n\n\nFifth item\n\n\nSixth item\n\n\nSeventh item\n\n\n\n\n\n\n\n\n\n3. Compact Attribute (for Lists)\nThe compact attribute specifies whether to reduce the spacing between list items.\nExample:\n&lt;ul compact&gt;\n  &lt;li&gt;First item&lt;/li&gt;\n  &lt;li&gt;Second item&lt;/li&gt;\n  &lt;li&gt;Third item&lt;/li&gt;\n&lt;/ul&gt;\n\n\nFirst item\n\n\nSecond item\n\n\nThird item",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Lists"
+    ]
+  },
+  {
+    "objectID": "1.HTML/11_lists.html#example-of-a-fully-utilized-list",
+    "href": "1.HTML/11_lists.html#example-of-a-fully-utilized-list",
+    "title": "HTML Lists",
+    "section": "Example of a Fully Utilized List",
+    "text": "Example of a Fully Utilized List\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;title&gt;HTML List Example&lt;/title&gt;\n  &lt;style&gt;\n    li {\n      margin-bottom: 8px;\n    }\n  &lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h2&gt;Ordered List&lt;/h2&gt;\n  &lt;ol type=\"I\"&gt;\n    &lt;li&gt;First item&lt;/li&gt;\n    &lt;li&gt;Second item&lt;/li&gt;\n    &lt;li&gt;Third item&lt;/li&gt;\n  &lt;/ol&gt;\n  \n  &lt;h2&gt;Unordered List&lt;/h2&gt;\n  &lt;ul compact&gt;\n    &lt;li&gt;First item&lt;/li&gt;\n    &lt;li&gt;Second item&lt;/li&gt;\n    &lt;li&gt;Third item&lt;/li&gt;\n  &lt;/ul&gt;\n  \n  &lt;h2&gt;Definition List&lt;/h2&gt;\n  &lt;dl&gt;\n    &lt;dt&gt;Term 1&lt;/dt&gt;\n    &lt;dd&gt;Definition 1&lt;/dd&gt;\n    &lt;dt&gt;Term 2&lt;/dt&gt;\n    &lt;dd&gt;Definition 2&lt;/dd&gt;\n  &lt;/dl&gt;\n&lt;/body&gt;\n&lt;/html&gt;\nResult:\n&lt;!DOCTYPE html&gt;\n\n\n\n\nHTML List Example\n\n\n\n\n\nOrdered List\n\n\n\nFirst item\n\n\nSecond item\n\n\nThird item\n\n\n\nUnordered List\n\n\n\nFirst item\n\n\nSecond item\n\n\nThird item\n\n\n\nDefinition List\n\n\n\nTerm 1\n\n\nDefinition 1\n\n\nTerm 2\n\n\nDefinition 2\n\n\n\n\n\nNested HTML Lists:\nSometimes we to nest lists to make the data we represent easier to understand.\nHere’s an example of nesting HTML Lists.\n&lt;ul&gt;\n    &lt;li&gt;General Data&lt;/li&gt;\n    &lt;li&gt;\n        &lt;!-- We put another list inside an li element --&gt;\n        &lt;ul&gt;\n            &lt;li&gt;Specific Data&lt;/li&gt;\n            &lt;li&gt;Specific Data&lt;/li&gt;\n            &lt;li&gt;Specific Data&lt;/li&gt;\n        &lt;/ul&gt;\n    &lt;/li&gt;\n    &lt;li&gt;Other General Data&lt;/li&gt;\n    &lt;li&gt;\n        &lt;!-- We put another list inside an li element --&gt;\n        &lt;ul&gt;\n            &lt;li&gt;Other Specific Data&lt;/li&gt;\n            &lt;li&gt;Other Specific Data&lt;/li&gt;\n            &lt;li&gt;Other Specific Data&lt;/li&gt;\n        &lt;/ul&gt;\n    &lt;/li&gt;\n&lt;/ul&gt;\nOutput:\n\n\nGeneral Data\n\n\n\n\n\nSpecific Data\n\n\nSpecific Data\n\n\nSpecific Data\n\n\n\n\nOther General Data\n\n\n\n\n\nOther Specific Data\n\n\nOther Specific Data\n\n\nOther Specific Data\n\n\n\n\n\n\nNote!\n\n\nThere’s no limitation to the depth of nesting lists\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Lists"
+    ]
+  },
+  {
+    "objectID": "1.HTML/11_lists.html#conclusion",
+    "href": "1.HTML/11_lists.html#conclusion",
+    "title": "HTML Lists",
+    "section": "Conclusion",
+    "text": "Conclusion\nHTML lists are versatile tools for organizing and presenting information on web pages. Whether you need to display a sequence of items, a collection of terms and definitions, or an unordered set of items, HTML lists provide a simple and effective way to structure your content. Understanding how to use lists and their attributes allows you to create clear and well-organized web pages.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Lists"
+    ]
+  },
+  {
+    "objectID": "1.HTML/12_forms.html",
+    "href": "1.HTML/12_forms.html",
+    "title": "HTML Forms",
+    "section": "",
+    "text": "HTML forms are used to collect user input. A form is an area that can contain form elements such as input boxes, checkboxes, radio buttons, submit buttons, etc. Forms are essential in web development for collecting user data and sending it to a server for processing.\n\n\nAn HTML form is defined using the &lt;form&gt; element. Here’s a basic example:\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;Basic Form&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;form action=\"/submit\" method=\"post\"&gt;\n        &lt;!-- Form elements go here --&gt;\n    &lt;/form&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n\n\n\n\naction: Specifies the URL where the form data should be sent.\nmethod: Specifies the HTTP method to be used when sending the form data. Common values are GET and POST.\n\nGET: Appends form data to the URL. Suitable for non-sensitive data.\nPOST: Sends form data in the body of the HTTP request. Suitable for sensitive data.\n\n\n\n\n\nInput Elements\nThe &lt;input&gt; element is used to create various types of inputs. Key attributes include type, name, value, placeholder, and required.\n\nText Input\n&lt;label for=\"name\"&gt;Name:&lt;/label&gt;\n&lt;input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Enter your name\" required&gt;\nPassword Input\n&lt;label for=\"password\"&gt;Password:&lt;/label&gt;\n&lt;input type=\"password\" id=\"password\" name=\"password\" placeholder=\"Enter your password\" required&gt;\nEmail Input\n&lt;label for=\"email\"&gt;Email:&lt;/label&gt;\n&lt;input type=\"email\" id=\"email\" name=\"email\" placeholder=\"Enter your email\" required&gt;\nNumber Input\n&lt;label for=\"age\"&gt;Age:&lt;/label&gt;\n&lt;input type=\"number\" id=\"age\" name=\"age\" min=\"1\" max=\"100\"&gt;\nRadio Buttons\n&lt;p&gt;Gender:&lt;/p&gt;\n&lt;input type=\"radio\" id=\"male\" name=\"gender\" value=\"male\"&gt;\n&lt;label for=\"male\"&gt;Male&lt;/label&gt;\n&lt;input type=\"radio\" id=\"female\" name=\"gender\" value=\"female\"&gt;\n&lt;label for=\"female\"&gt;Female&lt;/label&gt;\nCheckboxes\n&lt;p&gt;Skills:&lt;/p&gt;\n&lt;input type=\"checkbox\" id=\"html\" name=\"skills\" value=\"HTML\"&gt;\n&lt;label for=\"html\"&gt;HTML&lt;/label&gt;\n&lt;input type=\"checkbox\" id=\"css\" name=\"skills\" value=\"CSS\"&gt;\n&lt;label for=\"css\"&gt;CSS&lt;/label&gt;\n&lt;input type=\"checkbox\" id=\"js\" name=\"skills\" value=\"JavaScript\"&gt;\n&lt;label for=\"js\"&gt;JavaScript&lt;/label&gt;\nSubmit Button\n&lt;input type=\"submit\" value=\"Submit\"&gt;\n\nTextarea\nThe &lt;textarea&gt; element is used for multi-line text input.\n&lt;label for=\"message\"&gt;Message:&lt;/label&gt;\n&lt;textarea id=\"message\" name=\"message\" rows=\"4\" cols=\"50\" placeholder=\"Enter your message here\"&gt;&lt;/textarea&gt;\nSelect Box\nThe &lt;select&gt; element is used to create a drop-down list.\n&lt;label for=\"country\"&gt;Country:&lt;/label&gt;\n&lt;select id=\"country\" name=\"country\"&gt;\n    &lt;option value=\"usa\"&gt;USA&lt;/option&gt;\n    &lt;option value=\"canada\"&gt;Canada&lt;/option&gt;\n    &lt;option value=\"uk\"&gt;UK&lt;/option&gt;\n&lt;/select&gt;\nFile Input\nThe &lt;input type=\"file\"&gt; element allows users to upload files.\n&lt;label for=\"file\"&gt;Upload a file:&lt;/label&gt;\n&lt;input type=\"file\" id=\"file\" name=\"file\"&gt;\nButton\nThe &lt;button&gt; element can be used to create various types of buttons.\n&lt;button type=\"submit\"&gt;Submit&lt;/button&gt;\n\n\n\nFieldset and Legend\nThe &lt;fieldset&gt; element is used to group related elements in a form, and the &lt;legend&gt; element provides a caption for the &lt;fieldset&gt;.\n&lt;fieldset&gt;\n    &lt;legend&gt;Personal Information&lt;/legend&gt;\n    &lt;label for=\"fname\"&gt;First Name:&lt;/label&gt;\n    &lt;input type=\"text\" id=\"fname\" name=\"fname\"&gt;\n    &lt;label for=\"lname\"&gt;Last Name:&lt;/label&gt;\n    &lt;input type=\"text\" id=\"lname\" name=\"lname\"&gt;\n&lt;/fieldset&gt;\n\n\n\nHTML5 provides built-in form validation. Here are some common validation attributes:\n\nrequired: Ensures the field is not empty.\nminlength and maxlength: Set minimum and maximum lengths for text inputs.\npattern: Defines a regex pattern the input must match.\nmin and max: Set minimum and maximum values for number inputs.\n\n&lt;label for=\"username\"&gt;Username:&lt;/label&gt;\n&lt;input type=\"text\" id=\"username\" name=\"username\" minlength=\"5\" maxlength=\"15\" required&gt;\n\n&lt;label for=\"userage\"&gt;Age:&lt;/label&gt;\n&lt;input type=\"number\" id=\"userage\" name=\"userage\" min=\"18\" max=\"100\" required&gt;\n\n\n\nHere’s a complete example that includes various form elements:\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;Example Form&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;form action=\"/submit\" method=\"post\"&gt;\n        &lt;fieldset&gt;\n            &lt;legend&gt;Personal Information&lt;/legend&gt;\n            &lt;label for=\"name\"&gt;Name:&lt;/label&gt;\n            &lt;input type=\"text\" id=\"name\" name=\"name\" required&gt;\n            &lt;label for=\"email\"&gt;Email:&lt;/label&gt;\n            &lt;input type=\"email\" id=\"email\" name=\"email\" required&gt;\n        &lt;/fieldset&gt;\n\n        &lt;fieldset&gt;\n            &lt;legend&gt;Account Details&lt;/legend&gt;\n            &lt;label for=\"username\"&gt;Username:&lt;/label&gt;\n            &lt;input type=\"text\" id=\"username\" name=\"username\" minlength=\"5\" maxlength=\"15\" required&gt;\n            &lt;label for=\"password\"&gt;Password:&lt;/label&gt;\n            &lt;input type=\"password\" id=\"password\" name=\"password\" required&gt;\n        &lt;/fieldset&gt;\n\n        &lt;fieldset&gt;\n            &lt;legend&gt;Preferences&lt;/legend&gt;\n            &lt;p&gt;Gender:&lt;/p&gt;\n            &lt;input type=\"radio\" id=\"male\" name=\"gender\" value=\"male\"&gt;\n            &lt;label for=\"male\"&gt;Male&lt;/label&gt;\n            &lt;input type=\"radio\" id=\"female\" name=\"gender\" value=\"female\"&gt;\n            &lt;label for=\"female\"&gt;Female&lt;/label&gt;\n\n            &lt;p&gt;Skills:&lt;/p&gt;\n            &lt;input type=\"checkbox\" id=\"html\" name=\"skills\" value=\"HTML\"&gt;\n            &lt;label for=\"html\"&gt;HTML&lt;/label&gt;\n            &lt;input type=\"checkbox\" id=\"css\" name=\"skills\" value=\"CSS\"&gt;\n            &lt;label for=\"css\"&gt;CSS&lt;/label&gt;\n            &lt;input type=\"checkbox\" id=\"js\" name=\"skills\" value=\"JavaScript\"&gt;\n            &lt;label for=\"js\"&gt;JavaScript&lt;/label&gt;\n        &lt;/fieldset&gt;\n\n        &lt;label for=\"message\"&gt;Message:&lt;/label&gt;\n        &lt;textarea id=\"message\" name=\"message\" rows=\"4\" cols=\"50\"&gt;&lt;/textarea&gt;\n\n        &lt;label for=\"file\"&gt;Upload a file:&lt;/label&gt;\n        &lt;input type=\"file\" id=\"file\" name=\"file\"&gt;\n\n        &lt;button type=\"submit\"&gt;Submit&lt;/button&gt;\n    &lt;/form&gt;\n&lt;/body&gt;\n&lt;/html&gt;\nOuput:\n\n\nPersonal Information Name:  Email: \n\n\nAccount Details Username:  Password: \n\n\nPreferences\n\nGender:\n\n Male  Female\n\nSkills:\n\n HTML  CSS  JavaScript\n\nMessage:\n\nUpload a file:  Submit\n\n\n\n\nThis tutorial covers the basics of HTML forms, including the essential attributes and elements. By understanding these concepts, you can create forms that effectively collect and validate user input. For more advanced functionality, you might integrate JavaScript for dynamic form handling and additional validation.\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Forms"
+    ]
+  },
+  {
+    "objectID": "1.HTML/12_forms.html#introduction-to-html-forms",
+    "href": "1.HTML/12_forms.html#introduction-to-html-forms",
+    "title": "HTML Forms",
+    "section": "",
+    "text": "HTML forms are used to collect user input. A form is an area that can contain form elements such as input boxes, checkboxes, radio buttons, submit buttons, etc. Forms are essential in web development for collecting user data and sending it to a server for processing.\n\n\nAn HTML form is defined using the &lt;form&gt; element. Here’s a basic example:\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;Basic Form&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;form action=\"/submit\" method=\"post\"&gt;\n        &lt;!-- Form elements go here --&gt;\n    &lt;/form&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n\n\n\n\naction: Specifies the URL where the form data should be sent.\nmethod: Specifies the HTTP method to be used when sending the form data. Common values are GET and POST.\n\nGET: Appends form data to the URL. Suitable for non-sensitive data.\nPOST: Sends form data in the body of the HTTP request. Suitable for sensitive data.\n\n\n\n\n\nInput Elements\nThe &lt;input&gt; element is used to create various types of inputs. Key attributes include type, name, value, placeholder, and required.\n\nText Input\n&lt;label for=\"name\"&gt;Name:&lt;/label&gt;\n&lt;input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Enter your name\" required&gt;\nPassword Input\n&lt;label for=\"password\"&gt;Password:&lt;/label&gt;\n&lt;input type=\"password\" id=\"password\" name=\"password\" placeholder=\"Enter your password\" required&gt;\nEmail Input\n&lt;label for=\"email\"&gt;Email:&lt;/label&gt;\n&lt;input type=\"email\" id=\"email\" name=\"email\" placeholder=\"Enter your email\" required&gt;\nNumber Input\n&lt;label for=\"age\"&gt;Age:&lt;/label&gt;\n&lt;input type=\"number\" id=\"age\" name=\"age\" min=\"1\" max=\"100\"&gt;\nRadio Buttons\n&lt;p&gt;Gender:&lt;/p&gt;\n&lt;input type=\"radio\" id=\"male\" name=\"gender\" value=\"male\"&gt;\n&lt;label for=\"male\"&gt;Male&lt;/label&gt;\n&lt;input type=\"radio\" id=\"female\" name=\"gender\" value=\"female\"&gt;\n&lt;label for=\"female\"&gt;Female&lt;/label&gt;\nCheckboxes\n&lt;p&gt;Skills:&lt;/p&gt;\n&lt;input type=\"checkbox\" id=\"html\" name=\"skills\" value=\"HTML\"&gt;\n&lt;label for=\"html\"&gt;HTML&lt;/label&gt;\n&lt;input type=\"checkbox\" id=\"css\" name=\"skills\" value=\"CSS\"&gt;\n&lt;label for=\"css\"&gt;CSS&lt;/label&gt;\n&lt;input type=\"checkbox\" id=\"js\" name=\"skills\" value=\"JavaScript\"&gt;\n&lt;label for=\"js\"&gt;JavaScript&lt;/label&gt;\nSubmit Button\n&lt;input type=\"submit\" value=\"Submit\"&gt;\n\nTextarea\nThe &lt;textarea&gt; element is used for multi-line text input.\n&lt;label for=\"message\"&gt;Message:&lt;/label&gt;\n&lt;textarea id=\"message\" name=\"message\" rows=\"4\" cols=\"50\" placeholder=\"Enter your message here\"&gt;&lt;/textarea&gt;\nSelect Box\nThe &lt;select&gt; element is used to create a drop-down list.\n&lt;label for=\"country\"&gt;Country:&lt;/label&gt;\n&lt;select id=\"country\" name=\"country\"&gt;\n    &lt;option value=\"usa\"&gt;USA&lt;/option&gt;\n    &lt;option value=\"canada\"&gt;Canada&lt;/option&gt;\n    &lt;option value=\"uk\"&gt;UK&lt;/option&gt;\n&lt;/select&gt;\nFile Input\nThe &lt;input type=\"file\"&gt; element allows users to upload files.\n&lt;label for=\"file\"&gt;Upload a file:&lt;/label&gt;\n&lt;input type=\"file\" id=\"file\" name=\"file\"&gt;\nButton\nThe &lt;button&gt; element can be used to create various types of buttons.\n&lt;button type=\"submit\"&gt;Submit&lt;/button&gt;\n\n\n\nFieldset and Legend\nThe &lt;fieldset&gt; element is used to group related elements in a form, and the &lt;legend&gt; element provides a caption for the &lt;fieldset&gt;.\n&lt;fieldset&gt;\n    &lt;legend&gt;Personal Information&lt;/legend&gt;\n    &lt;label for=\"fname\"&gt;First Name:&lt;/label&gt;\n    &lt;input type=\"text\" id=\"fname\" name=\"fname\"&gt;\n    &lt;label for=\"lname\"&gt;Last Name:&lt;/label&gt;\n    &lt;input type=\"text\" id=\"lname\" name=\"lname\"&gt;\n&lt;/fieldset&gt;\n\n\n\nHTML5 provides built-in form validation. Here are some common validation attributes:\n\nrequired: Ensures the field is not empty.\nminlength and maxlength: Set minimum and maximum lengths for text inputs.\npattern: Defines a regex pattern the input must match.\nmin and max: Set minimum and maximum values for number inputs.\n\n&lt;label for=\"username\"&gt;Username:&lt;/label&gt;\n&lt;input type=\"text\" id=\"username\" name=\"username\" minlength=\"5\" maxlength=\"15\" required&gt;\n\n&lt;label for=\"userage\"&gt;Age:&lt;/label&gt;\n&lt;input type=\"number\" id=\"userage\" name=\"userage\" min=\"18\" max=\"100\" required&gt;\n\n\n\nHere’s a complete example that includes various form elements:\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;Example Form&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;form action=\"/submit\" method=\"post\"&gt;\n        &lt;fieldset&gt;\n            &lt;legend&gt;Personal Information&lt;/legend&gt;\n            &lt;label for=\"name\"&gt;Name:&lt;/label&gt;\n            &lt;input type=\"text\" id=\"name\" name=\"name\" required&gt;\n            &lt;label for=\"email\"&gt;Email:&lt;/label&gt;\n            &lt;input type=\"email\" id=\"email\" name=\"email\" required&gt;\n        &lt;/fieldset&gt;\n\n        &lt;fieldset&gt;\n            &lt;legend&gt;Account Details&lt;/legend&gt;\n            &lt;label for=\"username\"&gt;Username:&lt;/label&gt;\n            &lt;input type=\"text\" id=\"username\" name=\"username\" minlength=\"5\" maxlength=\"15\" required&gt;\n            &lt;label for=\"password\"&gt;Password:&lt;/label&gt;\n            &lt;input type=\"password\" id=\"password\" name=\"password\" required&gt;\n        &lt;/fieldset&gt;\n\n        &lt;fieldset&gt;\n            &lt;legend&gt;Preferences&lt;/legend&gt;\n            &lt;p&gt;Gender:&lt;/p&gt;\n            &lt;input type=\"radio\" id=\"male\" name=\"gender\" value=\"male\"&gt;\n            &lt;label for=\"male\"&gt;Male&lt;/label&gt;\n            &lt;input type=\"radio\" id=\"female\" name=\"gender\" value=\"female\"&gt;\n            &lt;label for=\"female\"&gt;Female&lt;/label&gt;\n\n            &lt;p&gt;Skills:&lt;/p&gt;\n            &lt;input type=\"checkbox\" id=\"html\" name=\"skills\" value=\"HTML\"&gt;\n            &lt;label for=\"html\"&gt;HTML&lt;/label&gt;\n            &lt;input type=\"checkbox\" id=\"css\" name=\"skills\" value=\"CSS\"&gt;\n            &lt;label for=\"css\"&gt;CSS&lt;/label&gt;\n            &lt;input type=\"checkbox\" id=\"js\" name=\"skills\" value=\"JavaScript\"&gt;\n            &lt;label for=\"js\"&gt;JavaScript&lt;/label&gt;\n        &lt;/fieldset&gt;\n\n        &lt;label for=\"message\"&gt;Message:&lt;/label&gt;\n        &lt;textarea id=\"message\" name=\"message\" rows=\"4\" cols=\"50\"&gt;&lt;/textarea&gt;\n\n        &lt;label for=\"file\"&gt;Upload a file:&lt;/label&gt;\n        &lt;input type=\"file\" id=\"file\" name=\"file\"&gt;\n\n        &lt;button type=\"submit\"&gt;Submit&lt;/button&gt;\n    &lt;/form&gt;\n&lt;/body&gt;\n&lt;/html&gt;\nOuput:\n\n\nPersonal Information Name:  Email: \n\n\nAccount Details Username:  Password: \n\n\nPreferences\n\nGender:\n\n Male  Female\n\nSkills:\n\n HTML  CSS  JavaScript\n\nMessage:\n\nUpload a file:  Submit\n\n\n\n\nThis tutorial covers the basics of HTML forms, including the essential attributes and elements. By understanding these concepts, you can create forms that effectively collect and validate user input. For more advanced functionality, you might integrate JavaScript for dynamic form handling and additional validation.\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Forms"
+    ]
+  },
+  {
+    "objectID": "1.HTML/01_introduction.html",
+    "href": "1.HTML/01_introduction.html",
+    "title": "HTML Introduction",
+    "section": "",
+    "text": "HTML stands for Hyper Text Markup Language, it is easy and fun to learn.\nHTML describes the structure of web pages\nHTML5 is the fith and current major version of the HTML standard.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Introduction"
+    ]
+  },
+  {
+    "objectID": "1.HTML/01_introduction.html#what-is-html",
+    "href": "1.HTML/01_introduction.html#what-is-html",
+    "title": "HTML Introduction",
+    "section": "",
+    "text": "HTML stands for Hyper Text Markup Language, it is easy and fun to learn.\nHTML describes the structure of web pages\nHTML5 is the fith and current major version of the HTML standard.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Introduction"
+    ]
+  },
+  {
+    "objectID": "1.HTML/01_introduction.html#why-learn-html5",
+    "href": "1.HTML/01_introduction.html#why-learn-html5",
+    "title": "HTML Introduction",
+    "section": "Why learn HTML5?",
+    "text": "Why learn HTML5?\nIt is essential to learn HTML if you want to build websites, you can’t build one if you don’t know HTML because it’s one of the prerequisites in learning other languages used for web development.\n\nLet’s break down what’s happening here:\n\n&lt;!DOCTYPE html&gt;: This declaration tells the web browser that the document is written in HTML5, the latest version of HTML.\n&lt;html&gt;: This tag represents the root of the HTML document.\n&lt;head&gt;: This section contains meta-information about the HTML document, such as the title, character encoding, etc.\n&lt;title&gt;: This tag sets the title of the webpage, which appears in the browser’s title bar or tab.\n&lt;body&gt;: This is where the main content of the webpage goes.\n&lt;h1&gt;, &lt;h2&gt;: These are header tags used to create headings of different levels.\n&lt;p&gt;: This tag is used to define a paragraph of text.\n&lt;ul&gt;, &lt;li&gt;: These tags are used to create an unordered list and list items, respectively.\n&lt;img&gt;: This tag is used to insert an image into the webpage. The src attribute specifies the path to the image file, and the alt attribute provides alternative text for accessibility purposes.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Introduction"
+    ]
+  },
+  {
+    "objectID": "1.HTML/01_introduction.html#html-tags",
+    "href": "1.HTML/01_introduction.html#html-tags",
+    "title": "HTML Introduction",
+    "section": "HTML Tags",
+    "text": "HTML Tags\nHTML Tags are element names surrounded by angle brackets.\nIn HTML we start and end tags. Look at the example below\n&lt;p&gt;Hello, welcome to our HTML course&lt;/p&gt;",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Introduction"
+    ]
+  },
+  {
+    "objectID": "1.HTML/01_introduction.html#start-tag-and-end-tag",
+    "href": "1.HTML/01_introduction.html#start-tag-and-end-tag",
+    "title": "HTML Introduction",
+    "section": "Start Tag and End Tag",
+    "text": "Start Tag and End Tag\n\nStart tag - also called “opening tag” eg. &lt;p&gt;\nEnd tag - also called “ending tag” eg &lt;/p&gt;\n\nThis is the basic structure of any HTML page. Memorize them!\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;title&gt;Hello World!&lt;/title&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        \n    &lt;/body&gt;\n&lt;/html&gt;\nLearning HTML is essential for anyone interested in web development or content creation on the internet because:\n\nFoundation of Web Development: HTML is the backbone of web development. It’s the first language you’ll need to learn when starting to build web pages.\nUniversal Language: HTML is supported by all web browsers and is the standard language for creating web pages, making it a fundamental skill for anyone working on the web.\nUnderstanding Web Structure: Learning HTML teaches you how web pages are structured and how different elements interact with each other, which is crucial for effective web design and development.\nGateway to Other Technologies: HTML often goes hand-in-hand with other web technologies like CSS (Cascading Style Sheets) for styling and JavaScript for interactivity. Understanding HTML is the first step toward mastering these other technologies.\n\nIn summary, HTML is the building block of the web, and learning it is the first step toward becoming proficient in web development and design.\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Introduction"
+    ]
+  },
+  {
+    "objectID": "1.HTML/09_images.html",
+    "href": "1.HTML/09_images.html",
+    "title": "HTML Images",
+    "section": "",
+    "text": "HTML Images are indeed needed or required for any website.\nImages help a web site become more attractive for visitors.\nImagine a web page without even a single image, would you still browse it? Of course not.\nTo put an image on our web site we simply need to use the &lt;img /&gt; element with an src attribute to define the URL or the location of an image.\nThe &lt;img /&gt; is an empty and inline element.\n\n\nWe use the src attribute to specify an image’s URL or file path\n\n\n&lt;img src=\"example.jpg\"&gt;\n\n\n\n\nSometimes images may not load on the user’s browser because of slow internet connection, slow server, image is deleted from directory or wrong URL value is specified in the src attribute.\nThe alt attribute provides an alternative text for an image.\n\n\n&lt;img src=\"deepconclusions_logo.jpg\" alt=\"deepconclusions LOGO\"/&gt;\n\n\n\nOn the example above, the given URL of the image does not really exist. Therefore the alternate text is shown instead.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Images"
+    ]
+  },
+  {
+    "objectID": "1.HTML/09_images.html#images",
+    "href": "1.HTML/09_images.html#images",
+    "title": "HTML Images",
+    "section": "",
+    "text": "HTML Images are indeed needed or required for any website.\nImages help a web site become more attractive for visitors.\nImagine a web page without even a single image, would you still browse it? Of course not.\nTo put an image on our web site we simply need to use the &lt;img /&gt; element with an src attribute to define the URL or the location of an image.\nThe &lt;img /&gt; is an empty and inline element.\n\n\nWe use the src attribute to specify an image’s URL or file path\n\n\n&lt;img src=\"example.jpg\"&gt;\n\n\n\n\nSometimes images may not load on the user’s browser because of slow internet connection, slow server, image is deleted from directory or wrong URL value is specified in the src attribute.\nThe alt attribute provides an alternative text for an image.\n\n\n&lt;img src=\"deepconclusions_logo.jpg\" alt=\"deepconclusions LOGO\"/&gt;\n\n\n\nOn the example above, the given URL of the image does not really exist. Therefore the alternate text is shown instead.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Images"
+    ]
+  },
+  {
+    "objectID": "1.HTML/09_images.html#image-sizing-width-and-height",
+    "href": "1.HTML/09_images.html#image-sizing-width-and-height",
+    "title": "HTML Images",
+    "section": "Image Sizing (width and height)",
+    "text": "Image Sizing (width and height)\nTo resize an image we just to use the width attribute to change its width and the height attribute to change its height.\nThe value is typically in pixels.\n\nExample:\n&lt;img src=\"profile.jpg\" width=\"350\" height=\"400\" /&gt;\n\n\nNote!\n\n\nFor following best practices, we can use the style attribute to resize an image with the properties width and height and the value can be in pixels as well.\n\n\n\n\nExample:\n&lt;img src=\"profile.jpg\" style=\"width:350px; height:400px\" /&gt;\n\n\nNote!\n\n\nAs you can see the result is the same as using width and height attributes but the advantage of using the style attribute is that their width and height will not be overwritten by the style sheets.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Images"
+    ]
+  },
+  {
+    "objectID": "1.HTML/09_images.html#floating-image-left-of-right",
+    "href": "1.HTML/09_images.html#floating-image-left-of-right",
+    "title": "HTML Images",
+    "section": "Floating Image (left of right)",
+    "text": "Floating Image (left of right)\nWe can float an image to right or left side of a text.\nTo achieve this, we need to use the style attribute.\nWith the float CSS property. And the left or right value.\nExample:\n&lt;p&gt;\n    &lt;img src=\"images/star.png\" style=\"float: left; width: 50px; height: 50px;\"&gt; This image is floated left. This image is floated left.\n&lt;/p&gt;\n&lt;p&gt;\n    &lt;img src=\"images/star.png\" style=\"float: right; width: 50px; height: 50px;\"&gt; This image is floated right. This image is floated right.\n&lt;/p&gt;",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Images"
+    ]
+  },
+  {
+    "objectID": "1.HTML/09_images.html#image-as-a-link",
+    "href": "1.HTML/09_images.html#image-as-a-link",
+    "title": "HTML Images",
+    "section": "Image as a link",
+    "text": "Image as a link\nThere are some situations that we need an image to act as a link\nTo do that, just enclose the image with an &lt;a&gt; element with its href attribute.\n\nExample\n&lt;a href=\"https://blog.deepconclusions.com\"&gt;\n    &lt;img src=\"blog_image.jpg\" /&gt;\n&lt;/a&gt;\n\n\nNote!\n\n\nOn the examples give above, the image used is the directory/folder as the HTML file.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Images"
+    ]
+  },
+  {
+    "objectID": "1.HTML/09_images.html#image-from-external-server",
+    "href": "1.HTML/09_images.html#image-from-external-server",
+    "title": "HTML Images",
+    "section": "Image from External Server",
+    "text": "Image from External Server\nSometimes we need to put images from other web sites like Facebook, Google or Imgur to our web site.\nHere is how to do that.\n\nExample\n&lt;img src=\"https://www.example.com/image.png\"&gt;",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Images"
+    ]
+  },
+  {
+    "objectID": "1.HTML/09_images.html#tips",
+    "href": "1.HTML/09_images.html#tips",
+    "title": "HTML Images",
+    "section": "Tips!",
+    "text": "Tips!\n\nYou can use any type of image you want. For instance, if you want an animating image, you can use .gif.\nDo not put a lot of images in a web page. Your page may load too slow and your visitors may leave your site and never combe back again!\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Images"
+    ]
+  },
+  {
+    "objectID": "1.HTML/00_outline.html",
+    "href": "1.HTML/00_outline.html",
+    "title": "deep-web",
+    "section": "",
+    "text": "Introduction \nEditors \nElements \nAttributes \nComments \nStyles \nLinks \nImages \nTables \nLists \nForms \n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Course Outline"
+    ]
+  },
+  {
+    "objectID": "1.HTML/00_outline.html#html-course-outline",
+    "href": "1.HTML/00_outline.html#html-course-outline",
+    "title": "deep-web",
+    "section": "",
+    "text": "Introduction \nEditors \nElements \nAttributes \nComments \nStyles \nLinks \nImages \nTables \nLists \nForms \n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Course Outline"
+    ]
+  },
+  {
+    "objectID": "1.HTML/04_attributes.html",
+    "href": "1.HTML/04_attributes.html",
+    "title": "HTML Attributes",
+    "section": "",
+    "text": "HTML attributes are used to add more information to an HTML Element.\n\nImportant Things to Remember\n\nHTML attributes are found in HTML tags\nHTML attributes only appear at start tags. It will never be on end tags\nHTML elements can have multiple attributes\nHTML attributes are composed of name/value pairs.\nThere are some attibutes taht can be used on all HTML Elements though they may not have effects on some elements. They are called Global attributes\n\nAn attibute is composed of:\n\nan attribute name\nan equal sign (=)\na value sorrounded by quotation marks \"value\"\n\nIt looks like this: name=\"value\"\nYou can also use single quotation marks depending on the situation, especially when the value contains double quotes\nWe will only use double quotation marks throughout the entire examples.\n\n\nAttribute lang Example:\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en-US\"&gt;\n&lt;!-- html document/file content goes here --&gt;\n&lt;/html&gt;\nWe use the lang attribute to define the language of an HTML file\nThe language defined above is American English\n\n\nAttribute href Example:\n\nLinks are dfined using the anchor &lt;a&gt; element.\nOn the example above we used the href attribute to tell the browser where to go.\nWhen clicked the user will be redirected to Google(www.deepconclusions.com)\n\n\nAttribute title Example:\n\nThe title attribute provides a tooltip for HTML Elements.\nUnfortunately, it doesn’t work on mobile devices.\n\n\nAttribute style Example:\n\nOn the example given above we have created a paragraph using the &lt;p&gt; element.\nWe also used the style attribute to change its font-size and color.\n\n\nAttributes id and class Example:\n&lt;div id=\"name\"&gt;\n    &lt;!-- some content goes here --&gt;\n&lt;/div&gt;\n\n&lt;div class=\"name\"&gt;\n&lt;!-- some content goes here --&gt;\n&lt;/div&gt;\nThe id and class attributes give references to elements inside an HTML document\nMultiple elements can have the same class values/names.\nThe id’s value should be unique for each element.\nThese help us select elements in style sheets and scripts.\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Attributes"
+    ]
+  },
+  {
+    "objectID": "2.CSS/10_box_model.html",
+    "href": "2.CSS/10_box_model.html",
+    "title": "CSS Box Model",
+    "section": "",
+    "text": "CSS box model is the foundataion of desing and layout of the web.\nIt is simply a box or a rectangular box.\n\n\n\nBefore we study and create CSS Layouts, we have to understand CSS box models first.\n\n\nIn CSS box model, each element is represented as a box with the following parts or properties\n\nContent: also called content box/area; it is the areawhere the content of the box is displayed\npadding: the space or area between the outer edge of the content box and the inner edge of the border; it is transparent.\nBorder: the area between margin and the padding; its width, style and color can be changed\nMargin: the area or space outside the border or outside the CSS box; it is transparent\n\nEach part or property is built up around another layer by layer.\nTo better understand the CSS box model. Here’s an illustration.\n\n\n\nCSS Box Model\n\n\nExample:\ndiv {\n    padding: 20px;\n    border: 5px solid black;\n    margin: 40px;\n}\nOutput:",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Box Model"
+    ]
+  },
+  {
+    "objectID": "2.CSS/10_box_model.html#box-models",
+    "href": "2.CSS/10_box_model.html#box-models",
+    "title": "CSS Box Model",
+    "section": "",
+    "text": "CSS box model is the foundataion of desing and layout of the web.\nIt is simply a box or a rectangular box.\n\n\n\nBefore we study and create CSS Layouts, we have to understand CSS box models first.\n\n\nIn CSS box model, each element is represented as a box with the following parts or properties\n\nContent: also called content box/area; it is the areawhere the content of the box is displayed\npadding: the space or area between the outer edge of the content box and the inner edge of the border; it is transparent.\nBorder: the area between margin and the padding; its width, style and color can be changed\nMargin: the area or space outside the border or outside the CSS box; it is transparent\n\nEach part or property is built up around another layer by layer.\nTo better understand the CSS box model. Here’s an illustration.\n\n\n\nCSS Box Model\n\n\nExample:\ndiv {\n    padding: 20px;\n    border: 5px solid black;\n    margin: 40px;\n}\nOutput:",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Box Model"
+    ]
+  },
+  {
+    "objectID": "2.CSS/10_box_model.html#width-and-height-of-a-css-box",
+    "href": "2.CSS/10_box_model.html#width-and-height-of-a-css-box",
+    "title": "CSS Box Model",
+    "section": "Width and Height of a CSS Box",
+    "text": "Width and Height of a CSS Box\nTo get the total width or height of a CSS Box, we have to use the following formulas.\nCSS Box’s width = left border’s width + left padding’s width + content box’s width + right padding’s width + right border’s width CSS Box’s height = left border’s height + left padding’s height + content box’s height + right padding’s height + right border’s height\nFor example, if a &lt;div&gt; element has the following CSS declarations…\ndiv {\n    width: 200px;\n    height: 200px;\n    padding: 50px;\n    border: 20px solid black;\n}\n… its total width/height would then be 340px\nCSS Box’s width = 20px (left border) + 50px (left padding) + 200px (content box’s width) + 50px (right padding) + 20px (right border) = 340px\nCSS Box’s height = 20px (top border) + 50px (top padding) + 200px (content box’s height) + 50px (bottom padding) + 20px (bottom border) = 340px\nYou must have noticed that the width and height CSS properties only set the width/height of the content box not the entire CSS box:\n\n\n\nBox Model Width Height\n\n\nIns’t that annoying? Yes, in some cases.\nForexample if we only want a CSS Box to occupy the 50% of the width including the border and the padding.\nTo achieve something like that, we need the box-sizing CSS property be set to border-box.\ndiv {\n    box-sizing: border-box;\n    width: 200px;\n    height: 200px; \n    padding: 50px;\n    border: 20px solid black;\n}\nResult:\n\n\n\nNow the final rendered width/height of the element is only 200px\nIt is because the padding and borders are already included inside teh 200px\n\n\nNote!\n\n\nIt is highly recommended to use this approach in web design.\n\n\nHere is the illustration of how it works.\n\n\n\nBox Model Border Box",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Box Model"
+    ]
+  },
+  {
+    "objectID": "2.CSS/10_box_model.html#css-box-terminologies",
+    "href": "2.CSS/10_box_model.html#css-box-terminologies",
+    "title": "CSS Box Model",
+    "section": "CSS Box Terminologies:",
+    "text": "CSS Box Terminologies:\n\ncontent box/area - the area where the content of the box is displayed\npadding box/area - the content area and the element’s padding combined\nborder box/area - the padding area and the element’s borders combined\nmargin box/area - the border area and the element’s margins combined\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Box Model"
+    ]
+  },
+  {
+    "objectID": "2.CSS/05_backgrounds.html",
+    "href": "2.CSS/05_backgrounds.html",
+    "title": "CSS Backgrounds",
+    "section": "",
+    "text": "Element’s backgrounds can be filled with a color or image, clipped and/or resized and otherwise be modified.\nCSS background properties:\n\nbackground-color\nbackground-image\nbackground-repeat\nbackground-attachment\nbackground-position",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Backgrounds"
+    ]
+  },
+  {
+    "objectID": "2.CSS/05_backgrounds.html#backgrounds",
+    "href": "2.CSS/05_backgrounds.html#backgrounds",
+    "title": "CSS Backgrounds",
+    "section": "",
+    "text": "Element’s backgrounds can be filled with a color or image, clipped and/or resized and otherwise be modified.\nCSS background properties:\n\nbackground-color\nbackground-image\nbackground-repeat\nbackground-attachment\nbackground-position",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Backgrounds"
+    ]
+  },
+  {
+    "objectID": "2.CSS/05_backgrounds.html#background-color",
+    "href": "2.CSS/05_backgrounds.html#background-color",
+    "title": "CSS Backgrounds",
+    "section": "Background Color",
+    "text": "Background Color\nWe can specify a background color for an element using the background-color property\nThe value can be any valid CSS Color\nChanging the background color of whole page:\nbody {\n    background-color: gold;\n}\nChanging the background color of elements:\nh1 {\n    background-color: yellow;\n}\n\np {\n    background-color: pink;\n}\n\ndiv {\n    background-color: gray;\n    width: 200px;\n    height: 200px;\n}",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Backgrounds"
+    ]
+  },
+  {
+    "objectID": "2.CSS/05_backgrounds.html#background-image",
+    "href": "2.CSS/05_backgrounds.html#background-image",
+    "title": "CSS Backgrounds",
+    "section": "Background Image",
+    "text": "Background Image\nThe background-image property sets one or more images as a background of an element.\nThe format of its value should be url(\"image.jpg\"). Single quotes or no quotes work eg url('image.jpg') and url(image.jpg)\nThe text contained in the quotes are file paths.\n\n\nNote!\n\n\nDon’t use any background color or image that will disturb the text on your web page. Always keep everything readable\n\n\n\nBackground Image Repeat\nCSS automatically repeats background images horizontally and vertically.\nTo only repeat the background image horizontally or vertically, we can use the background-repeat property.\nHorizontally-repeating background image\nbody {\n    background-image: url(\"image.png\");\n    background-repeat: repeat-x\n}\nVertically-repeating background image\nbody {\n    background-image: url(\"image.png\");\n    background-repeat: repeat-y\n}\n\n\nBackground Image no-repeat\nThe no-repeat value of the background-repeat property stops a background image from repeating.\nbody {\n    background-image: url(\"image.png\");\n    background-repeat: no-repeat\n}",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Backgrounds"
+    ]
+  },
+  {
+    "objectID": "2.CSS/05_backgrounds.html#background-shorthand-property",
+    "href": "2.CSS/05_backgrounds.html#background-shorthand-property",
+    "title": "CSS Backgrounds",
+    "section": "Background Shorthand Property",
+    "text": "Background Shorthand Property\nWe can specify all CSS background properties in one single property using its shorthand property\nThe background property is a shorthand for the following CSS properties\n\nbackground-color\nbackground-image\nbackground-repeat\nbackground-attachment\nbackground-position\n\nExample:\nA CSS Background with the following properties…\nbody {\n    background-color: red;\n    background-image: url(\"image.jpg\");\n    background-repeat: no-repeat;\n}\n… can be shortened to:\nbody{\n    background: red url(\"image.jpg\") no-repeat\n}\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Backgrounds"
+    ]
+  },
+  {
+    "objectID": "2.CSS/08_padding.html",
+    "href": "2.CSS/08_padding.html",
+    "title": "CSS Padding",
+    "section": "",
+    "text": "CSS Padding creates space within an element\nIt clears an area around the inside of an element.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Padding"
+    ]
+  },
+  {
+    "objectID": "2.CSS/08_padding.html#css-padding",
+    "href": "2.CSS/08_padding.html#css-padding",
+    "title": "CSS Padding",
+    "section": "",
+    "text": "CSS Padding creates space within an element\nIt clears an area around the inside of an element.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Padding"
+    ]
+  },
+  {
+    "objectID": "2.CSS/08_padding.html#css-padding---individual-sides",
+    "href": "2.CSS/08_padding.html#css-padding---individual-sides",
+    "title": "CSS Padding",
+    "section": "CSS Padding - Individual Sides",
+    "text": "CSS Padding - Individual Sides\nThe following properties set the length of the padding on each side\n\npadding-top: sets the padding area on top of an element\npadding-right: sets the padding area on the right of an element\npadding-bottom: sets the padding area on the bottom of an element\npadding-left: sets the padding area on the left of an element\n\nValid values:\n\n&lt;length&gt;\n&lt;percentage&gt;\n\nExample:\nHere is an example of different padding lenghts on each side.\ndiv {\n    padding-top: 30px;\n    padding-right: 50px;\n    padding-bottom: 70px;\n    padding-left: 90px;\n    background: lightgrey;\n    border: 1px solid red; \n}\nOutput:\n\n\nHere is an example of different padding lenghts on each side.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Padding"
+    ]
+  },
+  {
+    "objectID": "2.CSS/08_padding.html#css-padding---shorthand-property",
+    "href": "2.CSS/08_padding.html#css-padding---shorthand-property",
+    "title": "CSS Padding",
+    "section": "CSS Padding - Shorthand Property",
+    "text": "CSS Padding - Shorthand Property\nThe padding CSS property is a shorthand for the following properties:\n\npadding-top\npadding-right\npadding-bottom\npadding-left\n\nThe padding CSS property can have one, two, three, or four values.\n\nWhen one value is specified, it applies the same padding to all four sides\nWhen two values are specified, the first value applies to the top and bottom, the second value applies to the left and right\nWhen three values are specified, the first value applies to the top, the second to the left and right and the third to the bottom\nWhen four values are specified, the paddings apply to the top, right, bottom and left in that order (clockwise) respectively.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Padding"
+    ]
+  },
+  {
+    "objectID": "2.CSS/08_padding.html#padding-and-width",
+    "href": "2.CSS/08_padding.html#padding-and-width",
+    "title": "CSS Padding",
+    "section": "Padding and Width",
+    "text": "Padding and Width\nThe CSS width property only specifies the width of an element’s content area. It does not include padding, borders and margins.\nTherefore if an element has a specified width and padding, they will be added together.\nExample:\ndiv {\n    width: 200px;\n    padding: 10px;\n    /* the actual rendered width */\n    /* is now 220px */\n    background: blue;\n    height: 100px; \n}\nOutput:",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Padding"
+    ]
+  },
+  {
+    "objectID": "2.CSS/08_padding.html#padding-and-height",
+    "href": "2.CSS/08_padding.html#padding-and-height",
+    "title": "CSS Padding",
+    "section": "Padding and Height",
+    "text": "Padding and Height\nThe CSS height property only specifies the height of an element’s content area. It does not include padding, borders and margins\nTherefore if an element has a specified height and padding, they will be added together.\nExample:\ndiv {\n    height: 200px;\n    padding: 10px;\n    /* the actual rendered height */\n    /* is now 220px */\n    background: blue;\n    width: 100px;\n}\nOutput:\n\n\n\nTo keep the height at 200px we need to set the box-sizing to border-box.\nIncreasing the padding will now decrease the content space inside the element\nExample:\ndiv {\n    height: 200px;\n    padding: 10px;\n    /* the actual rendered */\n    /* height is still 200px */\n    background: blue;\n    width: 100px;\n}\nOutput:\n\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Padding"
+    ]
+  },
+  {
+    "objectID": "2.CSS/02_syntax.html",
+    "href": "2.CSS/02_syntax.html",
+    "title": "CSS Syntax, Selectors, Comments",
+    "section": "",
+    "text": "CSS syntax follows a simple structure consisting of selectors and declaration blocks.\n\n\nThese are patterns used to select the HTML elements you want to style. You can select elements by their tag name, class, ID, attributes, or relationship with other elements.\nExample:\nh1 {\n  color: blue;\n}\nIn this example, h1 is the selector, targeting all &lt;h1&gt; elements, and color: blue; is a declaration block that sets the text color of those elements to blue.\n\n\n\nThese are enclosed within curly braces {} and contain one or more declarations separated by semicolons ;.\nExample:\nselector {\n  property1: value1;\n  property2: value2;\n  /* more properties */\n}\nEach declaration consists of a property and its corresponding value, separated by a colon :.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Syntax, Selectors, Comments"
+    ]
+  },
+  {
+    "objectID": "2.CSS/02_syntax.html#css-syntax",
+    "href": "2.CSS/02_syntax.html#css-syntax",
+    "title": "CSS Syntax, Selectors, Comments",
+    "section": "",
+    "text": "CSS syntax follows a simple structure consisting of selectors and declaration blocks.\n\n\nThese are patterns used to select the HTML elements you want to style. You can select elements by their tag name, class, ID, attributes, or relationship with other elements.\nExample:\nh1 {\n  color: blue;\n}\nIn this example, h1 is the selector, targeting all &lt;h1&gt; elements, and color: blue; is a declaration block that sets the text color of those elements to blue.\n\n\n\nThese are enclosed within curly braces {} and contain one or more declarations separated by semicolons ;.\nExample:\nselector {\n  property1: value1;\n  property2: value2;\n  /* more properties */\n}\nEach declaration consists of a property and its corresponding value, separated by a colon :.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Syntax, Selectors, Comments"
+    ]
+  },
+  {
+    "objectID": "2.CSS/02_syntax.html#css-selectors",
+    "href": "2.CSS/02_syntax.html#css-selectors",
+    "title": "CSS Syntax, Selectors, Comments",
+    "section": "CSS Selectors:",
+    "text": "CSS Selectors:\nSelectors are fundamental to CSS as they allow you to target specific HTML elements for styling. Here are some common types of selectors:\n\nElement Selector\nTargets elements by their tag name.\nExample:\np {\n  font-size: 16px;\n}\nThis selector targets all &lt;p&gt; elements and sets their font size to 16 pixels.\n\n\nClass Selector\nTargets elements with a specific class attribute.\nExample:\n.highlight {\n  background-color: yellow;\n}\nThis selector targets all elements with the class “highlight” and gives them a yellow background color.\n\n\nID Selector\nTargets a single element with a specific ID attribute.\nExample:\n#header {\n  font-size: 24px;\n}\nThis selector targets the element with the ID “header” and sets its font size to 24 pixels.\n\n\nDescendant Selector\nTargets elements that are descendants of another element.\nExample:\ndiv p {\n  font-style: italic;\n}\nThis selector targets all &lt;p&gt; elements that are descendants of &lt;div&gt; elements and sets their font style to italic.\n\n\nChild Selector\nTargets elements that are direct children of another element.\nExample:\nul &gt; li {\n  list-style-type: square;\n}\nThis selector targets all &lt;li&gt; elements that are direct children of &lt;ul&gt; elements and sets their list style type to square.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Syntax, Selectors, Comments"
+    ]
+  },
+  {
+    "objectID": "2.CSS/02_syntax.html#grouping-selectors",
+    "href": "2.CSS/02_syntax.html#grouping-selectors",
+    "title": "CSS Syntax, Selectors, Comments",
+    "section": "Grouping Selectors",
+    "text": "Grouping Selectors\nSometimes multiple CSS rulesets may have similar declarations. Take a look at the example below:\nh1 {\n  font-family: Times New Roman;\n  color: green;\n}\n\nh1 {\n  font-family: Times New Roman;\n  color: green;\n}\nLooks inefficient right? Instead of repeating the same declarations we can simply have a group of selectors in a CSS ruleset.\nA group of selectors consists of selectors separated by commas\nExample:\nh1, p {\n  font-family: Times New Roman;\n  color: green;\n}",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Syntax, Selectors, Comments"
+    ]
+  },
+  {
+    "objectID": "2.CSS/02_syntax.html#css-comments",
+    "href": "2.CSS/02_syntax.html#css-comments",
+    "title": "CSS Syntax, Selectors, Comments",
+    "section": "CSS Comments:",
+    "text": "CSS Comments:\nCSS comments allow you to add explanatory notes within your stylesheet.\n\nSingle-line Comments\nBegin with /* and end with */ and extend to the end of the line.\nExample:\n/* This is a single-line comment */ \n\n\nMulti-line Comments\nAlso enclosed within /* */, allowing comments to span multiple lines.\nExample:\n/*\n  This is a multi-line comment\n  It can span across multiple lines\n*/\n\n\nNote!\n\n\nomments are useful for documenting your CSS code, explaining complex styles, or temporarily disabling certain styles for testing purposes. They improve code readability and maintainability.\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Syntax, Selectors, Comments"
+    ]
+  },
+  {
+    "objectID": "2.CSS/01_introduction.html",
+    "href": "2.CSS/01_introduction.html",
+    "title": "deep-web",
+    "section": "",
+    "text": "CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in markup languages like HTML. CSS separates the content of a webpage from its visual presentation, allowing developers to control the layout, colors, fonts, and other design aspects of a website.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "What is CSS?"
+    ]
+  },
+  {
+    "objectID": "2.CSS/01_introduction.html#what-is-css",
+    "href": "2.CSS/01_introduction.html#what-is-css",
+    "title": "deep-web",
+    "section": "",
+    "text": "CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in markup languages like HTML. CSS separates the content of a webpage from its visual presentation, allowing developers to control the layout, colors, fonts, and other design aspects of a website.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "What is CSS?"
+    ]
+  },
+  {
+    "objectID": "2.CSS/01_introduction.html#prerequisites-for-learning-css-include",
+    "href": "2.CSS/01_introduction.html#prerequisites-for-learning-css-include",
+    "title": "deep-web",
+    "section": "Prerequisites for learning CSS include:",
+    "text": "Prerequisites for learning CSS include:\n\nBasic HTML: Since CSS is used to style HTML elements, having a basic understanding of HTML is necessary.\nWeb Development Concepts: Familiarity with web development concepts and terminology will be helpful in understanding CSS principles and practices.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "What is CSS?"
+    ]
+  },
+  {
+    "objectID": "2.CSS/01_introduction.html#reasons-for-using-css",
+    "href": "2.CSS/01_introduction.html#reasons-for-using-css",
+    "title": "deep-web",
+    "section": "Reasons for using CSS:",
+    "text": "Reasons for using CSS:\n\nSeparation of Concerns: CSS separates the structure (HTML) of a webpage from its presentation (CSS), making code easier to maintain and update.\nConsistency: It allows developers to apply consistent styling across multiple pages of a website or different websites.\nFlexibility: CSS provides precise control over the appearance of individual elements on a webpage, including layout, colors, fonts, spacing, etc.\nAccessibility: Enhances the accessibility of web content by allowing developers to specify properties such as text size, contrast, and layout, making websites more usable for people with disabilities.\nResponsive Design: CSS plays a crucial role in creating responsive websites that adapt to different screen sizes and devices, providing a seamless user experience across desktops, tablets, and smartphones.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "What is CSS?"
+    ]
+  },
+  {
+    "objectID": "2.CSS/01_introduction.html#example-css-code",
+    "href": "2.CSS/01_introduction.html#example-css-code",
+    "title": "deep-web",
+    "section": "Example CSS code:",
+    "text": "Example CSS code:\n/* Resetting default styles and setting a base font */\nbody {\n  font-family: Arial, sans-serif;\n  background-color: #f0f0f0; /* Light gray background */\n  margin: 0; /* Remove default margins */\n  padding: 0; /* Remove default padding */\n}\n\n/* Styling heading elements */\nh1 {\n  color: #333; /* Dark gray color for headings */\n}\n\n/* Styling paragraph elements */\np {\n  color: #666; /* Light gray color for paragraphs */\n  line-height: 1.5; /* Set line height for better readability */\n}\nIn this version:\n\nStyles related to the body element are grouped together, including resetting default styles and setting a base font and background color.\nStyles for heading elements (h1) are grouped together, setting the color.\nStyles for paragraph elements (p) are grouped together, setting the color and line height.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "What is CSS?"
+    ]
+  },
+  {
+    "objectID": "2.CSS/04_colors.html",
+    "href": "2.CSS/04_colors.html",
+    "title": "CSS Colors",
+    "section": "",
+    "text": "CSS provides various ways to specify colors, including:\n\nNamed colors\nHexadecimal (hex) colors\nRGB andRGBA colors\nHSL and HSLA colors.\n\nEach method has its advantages and use cases.\n\n\nCSS defines a set of named colors that you can use directly in your stylesheets. Some common named colors include “red”, “blue”, “green”, “yellow”, “black”, “white”, etc.\nExample:\nWe can set the color of a heading h1 to be red as:\nh1 {\n    color: red;\n}\n\n\n\nHexadecimal notation represents colors using a combination of six hexadecimal digits, each specifying the intensity of red, green, and blue (RGB) components. Hex colors start with a hash symbol #, followed by six characters (0-9, A-F).\nExample:\nWe can set the color of a heading h1 to be red and green background like:\nh1 {\n    color: #ff0000; /* Red */\n    background-color: #00ff00; /* Green */\n}\n\n\n\nRGB notation defines colors using a combination of red, green, and blue color values. Each color value is specified as an integer between 0 and 255.\nExample:\nWe can set the color of a heading h1 to be red and green background like:\nh1 {\n    color: rgb(255, 0, 0); /* Red */\n    background-color: rgb(0, 255, 0); /* Green */\n}\n\n\n\nRGBA notation extends RGB by adding an alpha channel, which represents the opacity of the color. The alpha value is a number between 0 (fully transparent) and 1 (fully opaque).\nExample:\nWe can set the color of a heading h1 to be red and green background like:\nh1 {\n    /* Red with 50% opacity */\n    color: rgba(255, 0, 0, 0.5); \n    /* Green with 75% opacity */\n    background-color: rgba(0, 255, 0, 0.75); \n}\n\n\n\nHSL (Hue, Saturation, Lightness) notation defines colors using three parameters: hue, saturation, and lightness. Hue represents the color itself (0-360), saturation represents the intensity of the color (0-100%), and lightness represents the brightness (0-100%).\nExample:\nWe can set the color of a heading h1 to be red and green background like:\nh1 {\n    color: hsl(0, 100%, 50%); /* Red */\n    background-color: hsl(120, 100%, 50%); /* Green */\n}\n\n\n\nHSLA notation extends HSL by adding an alpha channel for opacity.\nExample:\nWe can set the color of a heading h1 to be red and green background like:\nh1 {\n    /* Red with 50% opacity */\n    color: hsla(0, 100%, 50%, 0.5); \n    /* Green with 75% opacity */\n    background-color: hsla(120, 100%, 50%, 0.75); \n}  \n\n\n\nEach color notation has its advantages and use cases. Experiment with different color formats to find the one that best suits your design needs.\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Colors"
+    ]
+  },
+  {
+    "objectID": "2.CSS/04_colors.html#colors",
+    "href": "2.CSS/04_colors.html#colors",
+    "title": "CSS Colors",
+    "section": "",
+    "text": "CSS provides various ways to specify colors, including:\n\nNamed colors\nHexadecimal (hex) colors\nRGB andRGBA colors\nHSL and HSLA colors.\n\nEach method has its advantages and use cases.\n\n\nCSS defines a set of named colors that you can use directly in your stylesheets. Some common named colors include “red”, “blue”, “green”, “yellow”, “black”, “white”, etc.\nExample:\nWe can set the color of a heading h1 to be red as:\nh1 {\n    color: red;\n}\n\n\n\nHexadecimal notation represents colors using a combination of six hexadecimal digits, each specifying the intensity of red, green, and blue (RGB) components. Hex colors start with a hash symbol #, followed by six characters (0-9, A-F).\nExample:\nWe can set the color of a heading h1 to be red and green background like:\nh1 {\n    color: #ff0000; /* Red */\n    background-color: #00ff00; /* Green */\n}\n\n\n\nRGB notation defines colors using a combination of red, green, and blue color values. Each color value is specified as an integer between 0 and 255.\nExample:\nWe can set the color of a heading h1 to be red and green background like:\nh1 {\n    color: rgb(255, 0, 0); /* Red */\n    background-color: rgb(0, 255, 0); /* Green */\n}\n\n\n\nRGBA notation extends RGB by adding an alpha channel, which represents the opacity of the color. The alpha value is a number between 0 (fully transparent) and 1 (fully opaque).\nExample:\nWe can set the color of a heading h1 to be red and green background like:\nh1 {\n    /* Red with 50% opacity */\n    color: rgba(255, 0, 0, 0.5); \n    /* Green with 75% opacity */\n    background-color: rgba(0, 255, 0, 0.75); \n}\n\n\n\nHSL (Hue, Saturation, Lightness) notation defines colors using three parameters: hue, saturation, and lightness. Hue represents the color itself (0-360), saturation represents the intensity of the color (0-100%), and lightness represents the brightness (0-100%).\nExample:\nWe can set the color of a heading h1 to be red and green background like:\nh1 {\n    color: hsl(0, 100%, 50%); /* Red */\n    background-color: hsl(120, 100%, 50%); /* Green */\n}\n\n\n\nHSLA notation extends HSL by adding an alpha channel for opacity.\nExample:\nWe can set the color of a heading h1 to be red and green background like:\nh1 {\n    /* Red with 50% opacity */\n    color: hsla(0, 100%, 50%, 0.5); \n    /* Green with 75% opacity */\n    background-color: hsla(120, 100%, 50%, 0.75); \n}  \n\n\n\nEach color notation has its advantages and use cases. Experiment with different color formats to find the one that best suits your design needs.\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Colors"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.1.JS-Basics/04_statements.html",
+    "href": "3.JavaScript/3.1.JS-Basics/04_statements.html",
+    "title": "JavaScript Statements",
+    "section": "",
+    "text": "JavaScript programs consist of statements with appropriate syntax.\nA single JavaScript statement may span a single or multiple lines.\nJavaScript statments should be ended or be separated by semicolons (;)\nBelow is an example of a single line statment\nThis statement writes the text to the paragraph element with the elem id\nBelow is a program that consists of two single-line statements\nYou can have as many statements as you need when writing programs",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.1.JS-Basics",
+      "JavaScript Statements"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.1.JS-Basics/04_statements.html#grouping-javascript-statements",
+    "href": "3.JavaScript/3.1.JS-Basics/04_statements.html#grouping-javascript-statements",
+    "title": "JavaScript Statements",
+    "section": "Grouping JavaScript Statements",
+    "text": "Grouping JavaScript Statements\nJavaScript Statements can be grouped inside curly brackets\nThese are called code blocks\nCode blocks are used to make statments execute together.\nThey are commonly used in functions.\nfunction myFunc() {\n    document.getElementById('demo').innerHTML = \"Hello World!\";\n}\n\n\nNote!\n\n\nYou will learn about functions later.",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.1.JS-Basics",
+      "JavaScript Statements"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.1.JS-Basics/04_statements.html#javascript-keywords",
+    "href": "3.JavaScript/3.1.JS-Basics/04_statements.html#javascript-keywords",
+    "title": "JavaScript Statements",
+    "section": "JavaScript Keywords",
+    "text": "JavaScript Keywords\nJavaScirpt statments usually start with a keyword\nEach keyword in JavaScript has its own special meaning\nForexample, to declare a variable. we have to use the const keyword\nfunction myFunc() {\n    const text = \"Hello World!\";\n    document.getElementById(\"demo\").innerHTML = text;\n}\nYOu will learn many JavaScript keywords as you go through the lessons. Enjoy, and keep learning!",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.1.JS-Basics",
+      "JavaScript Statements"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.1.JS-Basics/02_introduction.html",
+    "href": "3.JavaScript/3.1.JS-Basics/02_introduction.html",
+    "title": "deep-web",
+    "section": "",
+    "text": "JavaScript is a programming or scripting language that allows the implementation of features on the web pages\n\n\nTo better understand JavaScript, we can look back at what we already know.\nWe know that HTML elements are the building blocks of web pages\nAnd CSS is used for designing HTML elements.\nJavaScript on the other hand, is what implements the features of web pages.\nWe can simplify this explanation by taking a look at this example:\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;Document&lt;/title&gt;\n    &lt;style&gt;\n        /* css */\n        button{\n            font-family: sans-serif;\n            border: none;\n        }\n        #btn {\n            background-color: darkred;\n            color: white;\n        }\n    &lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;button id=\"btn\"&gt;Show a Dialog&lt;/button&gt;\n\n    &lt;!-- javascript --&gt;\n    &lt;script&gt;\n        document.getElementById('btn').onclick = function() {\n            alert('I am a dialog box')\n        }\n    &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n\n\n\nAs you may notice, this web page contains HTML, CSS and JavaScript\n\n\nIn this example, HTML is used to create the button, then CSS is used to design it. Finally JavaScript is used to add a simple function that shows a dialog box when clicked.\n\n\n\nWell, alot! Here are some:\nJavaScript can change the content of HTML elements.\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;Document&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;p id=\"demo\"&gt;Hello World!&lt;/p&gt;\n    &lt;button type=\"button\" onclick=\"myFunc()\"&gt;Change Value&lt;/button&gt;\n\n    &lt;!-- javascipt code --&gt;\n    &lt;script&gt;\n        function myFunc() {\n            document.getElementById(\"demo\").innerHTML = \"Hello Everyone!\";\n        }\n    &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;\nJavaScript can change the value of attributes\nIn this example, the value of the src attribute is changed.\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;Document&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;img src=\"../assets/404.png\" id='image'&gt;\n    &lt;button type=\"button\" onclick=\"muFunc()\"&gt;Change Image&lt;/button&gt;\n\n    &lt;!-- javascript --&gt;\n    &lt;script&gt;\n        function muFunc() {\n            document.getElementById('image').src = \"../assets/banner.png\"\n        }\n    &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.1.JS-Basics",
+      "What is JavaScript?"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.1.JS-Basics/02_introduction.html#what-is-javascript",
+    "href": "3.JavaScript/3.1.JS-Basics/02_introduction.html#what-is-javascript",
+    "title": "deep-web",
+    "section": "",
+    "text": "JavaScript is a programming or scripting language that allows the implementation of features on the web pages\n\n\nTo better understand JavaScript, we can look back at what we already know.\nWe know that HTML elements are the building blocks of web pages\nAnd CSS is used for designing HTML elements.\nJavaScript on the other hand, is what implements the features of web pages.\nWe can simplify this explanation by taking a look at this example:\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;Document&lt;/title&gt;\n    &lt;style&gt;\n        /* css */\n        button{\n            font-family: sans-serif;\n            border: none;\n        }\n        #btn {\n            background-color: darkred;\n            color: white;\n        }\n    &lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;button id=\"btn\"&gt;Show a Dialog&lt;/button&gt;\n\n    &lt;!-- javascript --&gt;\n    &lt;script&gt;\n        document.getElementById('btn').onclick = function() {\n            alert('I am a dialog box')\n        }\n    &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n\n\n\nAs you may notice, this web page contains HTML, CSS and JavaScript\n\n\nIn this example, HTML is used to create the button, then CSS is used to design it. Finally JavaScript is used to add a simple function that shows a dialog box when clicked.\n\n\n\nWell, alot! Here are some:\nJavaScript can change the content of HTML elements.\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;Document&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;p id=\"demo\"&gt;Hello World!&lt;/p&gt;\n    &lt;button type=\"button\" onclick=\"myFunc()\"&gt;Change Value&lt;/button&gt;\n\n    &lt;!-- javascipt code --&gt;\n    &lt;script&gt;\n        function myFunc() {\n            document.getElementById(\"demo\").innerHTML = \"Hello Everyone!\";\n        }\n    &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;\nJavaScript can change the value of attributes\nIn this example, the value of the src attribute is changed.\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;Document&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;img src=\"../assets/404.png\" id='image'&gt;\n    &lt;button type=\"button\" onclick=\"muFunc()\"&gt;Change Image&lt;/button&gt;\n\n    &lt;!-- javascript --&gt;\n    &lt;script&gt;\n        function muFunc() {\n            document.getElementById('image').src = \"../assets/banner.png\"\n        }\n    &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.1.JS-Basics",
+      "What is JavaScript?"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.3.JS-Operators/0_introduction.html",
+    "href": "3.JavaScript/3.3.JS-Operators/0_introduction.html",
+    "title": "JavaScript Operators",
+    "section": "",
+    "text": "JavaScript operators are used to perform particular actions\nThey can be used to assign values, compare values, combine values, perform arithmentic operations and more\nJavaScript operators are symbols (or set of symbols) or keywords\nThere are different types of operators.",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.3.JS-Operators",
+      "JavaScript Operators"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.3.JS-Operators/0_introduction.html#assignment-operators",
+    "href": "3.JavaScript/3.3.JS-Operators/0_introduction.html#assignment-operators",
+    "title": "JavaScript Operators",
+    "section": "Assignment Operators",
+    "text": "Assignment Operators\nThe assignment operator is used to assign a value to a variable. It uses the equal = symbol.\nconst x = 3;\nconst y = 5;\nconst sum = x + y;\n\nconsole.log(sum);\nThe addition assignment operator adds the value of the right operand to the value of the variable. Use the let keyword so we can reassign its value.\n\nOperator: x += y\nEquivalent: x = x + y\n\nHere’s an example:\nlet x = 3;\nlet y = 2;\n\nx += y;\n\nconsole.log(x);",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.3.JS-Operators",
+      "JavaScript Operators"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.3.JS-Operators/0_introduction.html#arithmetic-operators",
+    "href": "3.JavaScript/3.3.JS-Operators/0_introduction.html#arithmetic-operators",
+    "title": "JavaScript Operators",
+    "section": "Arithmetic Operators",
+    "text": "Arithmetic Operators\nThe arithmetic operators are used to perform arithmetic operations (like addition, subtraction, multiplication, and division) between values.\nHere are the symbols used for the arithmetic operators:\n\nAddition: +\nSubtraction: -\nMultiplication: *\nDivision: /\n\nAddition example:\nconst num1 = 8;\nconst num2 = 2;\nconst sum = num1 + num2;\n\nconsole.log(sum);\nSubtraction example:\nconst num1 = 8;\nconst num2 = 2;\nconst difference = num1 - num2;\n\nconsole.log(difference);\nMultiplication example:\nconst num1 = 8;\nconst num2 = 2;\nconst product = num1 * num2;\n\nconsole.log(product);\nDivision example:\nconst num1 = 8;\nconst num2 = 2;\nconst quotient = num1 / num2;\n\nconsole.log(quotient);",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.3.JS-Operators",
+      "JavaScript Operators"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.3.JS-Operators/0_introduction.html#string-operators",
+    "href": "3.JavaScript/3.3.JS-Operators/0_introduction.html#string-operators",
+    "title": "JavaScript Operators",
+    "section": "String Operators",
+    "text": "String Operators\nString operators are used to concatenate or add strings\nThe addition operator + and the addition assignment operator += are the string operators\nExample of using the addition oeprator.\nconst firstName = \"John \";\nconst lastName = \"Doe\";\n\nconst fullName = firstName + lastName\n\nconsole.log(fullName)\nExample of using the addition assignment oeprator.\nlet firstName = \"John \";\nlet lastName = \"Doe\";\n\nfirstName += lastName;\n\nconsole.log(firstName);",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.3.JS-Operators",
+      "JavaScript Operators"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.3.JS-Operators/0_introduction.html#comparison-operators",
+    "href": "3.JavaScript/3.3.JS-Operators/0_introduction.html#comparison-operators",
+    "title": "JavaScript Operators",
+    "section": "Comparison Operators",
+    "text": "Comparison Operators\nComparison operators compare its operands and return a Boolean based on whether the comparison is true or false.\nIn the example below, the equality comparison operator is used to compare two numbers.\nconst x = 5;\nconst y = 5;\n\nconsole.log(x == y);",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.3.JS-Operators",
+      "JavaScript Operators"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.3.JS-Operators/0_introduction.html#logical-operators",
+    "href": "3.JavaScript/3.3.JS-Operators/0_introduction.html#logical-operators",
+    "title": "JavaScript Operators",
+    "section": "Logical Operators",
+    "text": "Logical Operators\nLogical operators are typically used with Boolean values.\nThey are used to determine the logic between its operands.\nYou will learn about logical operators later in the course.",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.3.JS-Operators",
+      "JavaScript Operators"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.3.JS-Operators/0_introduction.html#bitwise-operators",
+    "href": "3.JavaScript/3.3.JS-Operators/0_introduction.html#bitwise-operators",
+    "title": "JavaScript Operators",
+    "section": "Bitwise Operators",
+    "text": "Bitwise Operators\nA A bitwise operator treats its operands as a set of 32 bits or zeros and ones.\nIt performs its operands on binary representations.\nIt returns numberic values\nYou will learn about bitwise operators later in the course",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.3.JS-Operators",
+      "JavaScript Operators"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.2.JS-Data-Types/00_strings.html",
+    "href": "3.JavaScript/3.2.JS-Data-Types/00_strings.html",
+    "title": "JavaScript Data Types",
+    "section": "",
+    "text": "In JavaScript or in any programming language, the concept of data types is important",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.2.JS-Data-Types",
+      "JavaScript Data Types"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.2.JS-Data-Types/00_strings.html#what-are-data-types",
+    "href": "3.JavaScript/3.2.JS-Data-Types/00_strings.html#what-are-data-types",
+    "title": "JavaScript Data Types",
+    "section": "What are Data Types?",
+    "text": "What are Data Types?\nData types are the different kinds of data that can be stored or used in a JavaScript program",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.2.JS-Data-Types",
+      "JavaScript Data Types"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.2.JS-Data-Types/00_strings.html#string-data-type",
+    "href": "3.JavaScript/3.2.JS-Data-Types/00_strings.html#string-data-type",
+    "title": "JavaScript Data Types",
+    "section": "String Data Type",
+    "text": "String Data Type\nThe string data type is a sequence of characters used to represent text.\nString can be written with either single or double quotes\n// single quote\nconst name = 'Juma Shafara';\n\n// double quote\nconst name2 = \"Akullu Viola\";\n\ndocument.getElementById('demo').innerHTML = name + \"&lt;br /&gt;\" + name2;\nShould you use single or double quotes?\nYou can use which one you like\nBut if the string contains single quotes, use double quotes\nOr if the string contains double quotes, use single quotes\nconst sentence = \"Her name is 'Maria'\";\nconst sentence2 = 'Her name is \"Maria\"';document.getElementById('demo').innerHTML = sentence + \"&lt;br /&gt;\" + sentence2",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.2.JS-Data-Types",
+      "JavaScript Data Types"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.1.JS-Basics/00_outline.html",
+    "href": "3.JavaScript/3.1.JS-Basics/00_outline.html",
+    "title": "deep-web",
+    "section": "",
+    "text": "Overview\nIntroduction\nWriting Code\nDisplaying Output\nStatements\nSyntax\nComments\nVariables\nFunctions\nEvents\n\n\n\n\n\nString\nNumber\nBoolean\nObject\nArray\nUndefined\nNull\nDynamic\n\n\n\n\n\nOperators\nArithmetic\nAssignment\nComparison\nLogical and Conditional\nBitwise Operators\n\n\n\n\n\nThe if...else statement\nThe switch statement\nFor Loop\nWhile Loop\nBreak and Continue\nTimeout and Interval\nException Handling\n\n\n\n\n\nVariable Scope\nVariable Hoisting\nStrict Mode\nlet\nconst\nDates\nDate Formats\nDate Get Methods\nDate Set Methods\nthis Keyword\nArrow Function\nClasses\nJSON\nForms\nForm Inputs\nReserved Keywords\nFunction Invocation\nRegular Expressions\n\n\n\n\n\nIntroduction\nSelectors\nNodes\nNavigation\nHTML\nCSS or Styling\nEffects\nEvents\n\n\n\n\n\nWindow\nScreen\nLocation\nHistory\nNavigator\nPop-up Boxes\nCookies\n\n\n\n\n\nIntroduction\nXMLHttpsRequest\nSend Request\nRecieve Response\n\n\n\nDon’t miss out on any updates and developments! Subscribe to the deepconclusions Newsletter it’s easy and safe.",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.1.JS-Basics",
+      "JavaScript Course Outline"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.1.JS-Basics/00_outline.html#javascript-course-outline",
+    "href": "3.JavaScript/3.1.JS-Basics/00_outline.html#javascript-course-outline",
+    "title": "deep-web",
+    "section": "",
+    "text": "Overview\nIntroduction\nWriting Code\nDisplaying Output\nStatements\nSyntax\nComments\nVariables\nFunctions\nEvents\n\n\n\n\n\nString\nNumber\nBoolean\nObject\nArray\nUndefined\nNull\nDynamic\n\n\n\n\n\nOperators\nArithmetic\nAssignment\nComparison\nLogical and Conditional\nBitwise Operators\n\n\n\n\n\nThe if...else statement\nThe switch statement\nFor Loop\nWhile Loop\nBreak and Continue\nTimeout and Interval\nException Handling\n\n\n\n\n\nVariable Scope\nVariable Hoisting\nStrict Mode\nlet\nconst\nDates\nDate Formats\nDate Get Methods\nDate Set Methods\nthis Keyword\nArrow Function\nClasses\nJSON\nForms\nForm Inputs\nReserved Keywords\nFunction Invocation\nRegular Expressions\n\n\n\n\n\nIntroduction\nSelectors\nNodes\nNavigation\nHTML\nCSS or Styling\nEffects\nEvents\n\n\n\n\n\nWindow\nScreen\nLocation\nHistory\nNavigator\nPop-up Boxes\nCookies\n\n\n\n\n\nIntroduction\nXMLHttpsRequest\nSend Request\nRecieve Response\n\n\n\nDon’t miss out on any updates and developments! Subscribe to the deepconclusions Newsletter it’s easy and safe.",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.1.JS-Basics",
+      "JavaScript Course Outline"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.1.JS-Basics/01_overview.html",
+    "href": "3.JavaScript/3.1.JS-Basics/01_overview.html",
+    "title": "deep-web",
+    "section": "",
+    "text": "This course will teach you the basic and advanced concepts of JavaScript\n\n\nWhat do you need before learning JavaScript?\nIn order to learn JavaScript, you need to have:\n\nComputer Literacy\nBasic understanding of HTML\nBasic understanding of CSS\n\n\n\n\nJavaScript is easy to learn! Although you may struggle at first, you can reread the lessons and retry coding the given examples\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.1.JS-Basics",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.1.JS-Basics/01_overview.html#overview",
+    "href": "3.JavaScript/3.1.JS-Basics/01_overview.html#overview",
+    "title": "deep-web",
+    "section": "",
+    "text": "This course will teach you the basic and advanced concepts of JavaScript\n\n\nWhat do you need before learning JavaScript?\nIn order to learn JavaScript, you need to have:\n\nComputer Literacy\nBasic understanding of HTML\nBasic understanding of CSS\n\n\n\n\nJavaScript is easy to learn! Although you may struggle at first, you can reread the lessons and retry coding the given examples\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.1.JS-Basics",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.1.JS-Basics/03_displaying_output.html",
+    "href": "3.JavaScript/3.1.JS-Basics/03_displaying_output.html",
+    "title": "deep-web",
+    "section": "",
+    "text": "Displaying output or generating output in JavaScript is very important expecially when learning the language\nFor example, if you want to see if your JavaScript statements or code blocks are correct, you can output data to check\nIn JavaScript, there are 4 ways of displaying output:\n\n\nBy using the innerHTML property, we can change the content or text of the selected element.\nWe can use the document.getElementById() function to select an element",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.1.JS-Basics",
+      "Displaying Output"
+    ]
+  },
+  {
+    "objectID": "3.JavaScript/3.1.JS-Basics/03_displaying_output.html#displaying-output",
+    "href": "3.JavaScript/3.1.JS-Basics/03_displaying_output.html#displaying-output",
+    "title": "deep-web",
+    "section": "",
+    "text": "Displaying output or generating output in JavaScript is very important expecially when learning the language\nFor example, if you want to see if your JavaScript statements or code blocks are correct, you can output data to check\nIn JavaScript, there are 4 ways of displaying output:\n\n\nBy using the innerHTML property, we can change the content or text of the selected element.\nWe can use the document.getElementById() function to select an element",
+    "crumbs": [
+      "Home",
+      "3.JavaScript",
+      "3.1.JS-Basics",
+      "Displaying Output"
+    ]
+  },
+  {
+    "objectID": "2.CSS/00_outline.html",
+    "href": "2.CSS/00_outline.html",
+    "title": "deep-web",
+    "section": "",
+    "text": "Introduction\nSyntax and Selectors\nInserting\nColors\nBackgrounds\nBorders\nMargins\nPadding\nWidth and Height\nBox Models\nText\nFonts\nIcons\nLinks\nTables\nOutlines\nButtons\nButtons\nImages\nOpacity\n\n\n\n\n\nThe display Property\nThe width and max-width Properties\nPositioning\nOverflow\nfloat and clear Properties\ninline-block\nHorizontal and Vertical Align\n\n\n\n\n\nCombinators\nPseudoclasses\nPseudoelements\nAttribute Selectors\n\n\n\n\n\nInteger\nNumber\nLength\nPercentage\nString\nColor\nUrl\nAngle\n\n\n\nDon’t miss out on any updates and developments! Subscribe to the deepconclusions Newsletter it’s easy and safe.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Course Outline"
+    ]
+  },
+  {
+    "objectID": "2.CSS/00_outline.html#css-course-outline",
+    "href": "2.CSS/00_outline.html#css-course-outline",
+    "title": "deep-web",
+    "section": "",
+    "text": "Introduction\nSyntax and Selectors\nInserting\nColors\nBackgrounds\nBorders\nMargins\nPadding\nWidth and Height\nBox Models\nText\nFonts\nIcons\nLinks\nTables\nOutlines\nButtons\nButtons\nImages\nOpacity\n\n\n\n\n\nThe display Property\nThe width and max-width Properties\nPositioning\nOverflow\nfloat and clear Properties\ninline-block\nHorizontal and Vertical Align\n\n\n\n\n\nCombinators\nPseudoclasses\nPseudoelements\nAttribute Selectors\n\n\n\n\n\nInteger\nNumber\nLength\nPercentage\nString\nColor\nUrl\nAngle\n\n\n\nDon’t miss out on any updates and developments! Subscribe to the deepconclusions Newsletter it’s easy and safe.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Course Outline"
+    ]
+  },
+  {
+    "objectID": "2.CSS/06_borders.html",
+    "href": "2.CSS/06_borders.html",
+    "title": "CSS Borders",
+    "section": "",
+    "text": "In CSS, we decorae borders with lines, make it square or rounded.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Borders"
+    ]
+  },
+  {
+    "objectID": "2.CSS/06_borders.html#borders",
+    "href": "2.CSS/06_borders.html#borders",
+    "title": "CSS Borders",
+    "section": "",
+    "text": "In CSS, we decorae borders with lines, make it square or rounded.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Borders"
+    ]
+  },
+  {
+    "objectID": "2.CSS/06_borders.html#border-style",
+    "href": "2.CSS/06_borders.html#border-style",
+    "title": "CSS Borders",
+    "section": "Border Style",
+    "text": "Border Style\nThe border-style CSS property sets the line style forall four sides of an element’s border.\nValid Values:\n\nnone:displays no border\nhidden: displays no border\ndotted: displays a series of rounded dots\ndashed: displays a series of short square-ended dashes or line segments\nsolid: displays a single straight solid line\ndouble: displays two straight lines\ngroove: displays a border with a carved apperarance\nridge: displays a border with an extruded appearance\ninset: displays a border that makes the element appear embedded\noutset: displays a border that makes the element appear embossed\n\nExample: Here’s an example of a dashed border\np {\n    border-style: dashed;\n}\nResult:\n\nThis is some content in a dashed border\n\nExample: Here’s an example of a solid border\np {\n    border-style: solid;\n}\nResult:\n\nThis is some content in a solid border",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Borders"
+    ]
+  },
+  {
+    "objectID": "2.CSS/06_borders.html#border-width",
+    "href": "2.CSS/06_borders.html#border-width",
+    "title": "CSS Borders",
+    "section": "Border Width",
+    "text": "Border Width\nWe can specify the widths of an element’s borders using the border-width CSS property\nValid values:\n\nthin: displays a thin border\nmedium: displays a medium border\nthick: displays a thick border\n&lt;length&gt;\n\nBelow is an example of usinga &lt;length&gt; value.\ndiv {\n    border-width: 10px;\n    border-style: solid;\n    width: 250px;\n    height: 250px;\n    background: yellow;\n}\nResult:",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Borders"
+    ]
+  },
+  {
+    "objectID": "2.CSS/06_borders.html#border-color",
+    "href": "2.CSS/06_borders.html#border-color",
+    "title": "CSS Borders",
+    "section": "Border Color",
+    "text": "Border Color\nThe border-color CSS property defines the color of a border.\nValid value:\n\n&lt;color&gt;\n\nExample:\ndiv {\n    border-style: groove;\n    border-width: 5px;\n    border-color: magenta;\n    width: 250px;\n    height: 250px;\n    background: yellow;\n}\nResult:",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Borders"
+    ]
+  },
+  {
+    "objectID": "2.CSS/06_borders.html#css-borders---individual-sides",
+    "href": "2.CSS/06_borders.html#css-borders---individual-sides",
+    "title": "CSS Borders",
+    "section": "CSS Borders - Individual Sides",
+    "text": "CSS Borders - Individual Sides\nIn CSS, we can specify border styles, widths, and colors on each side (top, right, bottom, left)\nWe can achieve this by using the following CSS properties.\n\nborder-top-style\nborder-right-style\nborder-bottom-style\nborder-left-style\nborder-top-width\nborder-right-width\nborder-bottom-width\nborder-left-width\nborder-top-color\nborder-right-color\nborder-bottom-color\nborder-left-color\n\nChanging border style on each side example:\ndiv {\n    border-top-style: solid;\n    border-right-style: dotted;\n    border-bottom-style: dashed;\n    border-left-style: groove;\n    border-width: 5px;\n    border-color: red;\n    width: 250px;\n    height: 250px;\n    background: lightgrey;\n}\nResult:\n\n\n\nChanging border width on each side example:\ndiv {\n    border-top-width: 5px;\n    border-right-width: 10px;\n    border-bottom-width: 15px;\n    border-left-width: 20px;\n    border-color: red;\n    border-style: solid;\n    width: 250px;\n    height: 250px;\n    background: lightgrey;\n}\nResult:\n\n\n\nChanging border color on each side example:\ndiv {\n    border-top-color: blue;\n    border-right-color: red;\n    border-bottom-color: green;\n    border-left-color: black;\n    border-style: solid;\n    border-width: 5px;\n    width: 250px;\n    height: 250px;\n    background: lightgrey;\n}\nResult:",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Borders"
+    ]
+  },
+  {
+    "objectID": "2.CSS/06_borders.html#css-border---shorthand-property",
+    "href": "2.CSS/06_borders.html#css-border---shorthand-property",
+    "title": "CSS Borders",
+    "section": "CSS Border - Shorthand Property",
+    "text": "CSS Border - Shorthand Property\nThe border CSS property sets an element’s border. It’s a shorthand for the following CSS properties.\n\nborder-width\nborder-style\nborder-color\n\nAs with all shorthand properties, any omitted sub-values will be set to their initial sub-value\nHowever, in this shorthand property, the border-style’s value is required.\nOrder does not matter.\nExample:\ndiv {\n    border: 5px solid green;\n    width: 250px;\n    height: 250px;\n    background: lightgrey;\n}\nResult:\n\n\n\n\n\nNote!\n\n\nThe border property increases elements’outer size except table and td elements.\n\n\nFor instance, an element with a width and height of 20px and a border of 5px will have an outer width and height of 30px (20px width + 5px border-left-width + 5px `border-right-width = 30px outer width)\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Borders"
+    ]
+  },
+  {
+    "objectID": "2.CSS/07_margins.html",
+    "href": "2.CSS/07_margins.html",
+    "title": "CSS Margins",
+    "section": "",
+    "text": "CSS Margins create space around or outside and element.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Margins"
+    ]
+  },
+  {
+    "objectID": "2.CSS/07_margins.html#margins",
+    "href": "2.CSS/07_margins.html#margins",
+    "title": "CSS Margins",
+    "section": "",
+    "text": "CSS Margins create space around or outside and element.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Margins"
+    ]
+  },
+  {
+    "objectID": "2.CSS/07_margins.html#css-margins---individual-sides",
+    "href": "2.CSS/07_margins.html#css-margins---individual-sides",
+    "title": "CSS Margins",
+    "section": "CSS Margins - Individual Sides",
+    "text": "CSS Margins - Individual Sides\nThe following properties set the length of the margin each side\n\nmargin-top: sets the margin area on top of an element\nmargin-right: sets the margin area on the right of an element\nmargin-bottom: sets the margin area on the bottom side of an element\nmargin-left: sets the margin area on the left side of an element\n\nValid values:\n\n&lt;length&gt;\n&lt;percentage&gt;\nauto: selects a suitable margin to use. For example in certain cases this value can be used toe center an element.\n\nElement:\nHere’s an example of using margins\ndiv {\n    margin-top: 30px;\n    margin-left: 90px;\n    background: lightgrey;\n    border: 5px solid red;\n    width: 200px;\n    height: 200px;\n}\nOutput:\n\n\n\n\n\nNote!\n\n\nThe margin sorrounds a CSS box, and pushes up against other CSS boxes in the layout. You will learn about CSS box models in the next few lessons",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Margins"
+    ]
+  },
+  {
+    "objectID": "2.CSS/07_margins.html#css-margin---shorthand-property",
+    "href": "2.CSS/07_margins.html#css-margin---shorthand-property",
+    "title": "CSS Margins",
+    "section": "CSS Margin - Shorthand Property",
+    "text": "CSS Margin - Shorthand Property\nThe margin CSS property is a shorthand for the following properties\n\nmargin-top\nmargin-right\nmargin-bottom\nmargin-left\n\nThe margin property can have one, two, three, or four values.\n\nWhen one value is specified, it applies the same margin to all four sides\nWhen two values are specified, the first value applies to the top and bottom, the second to the left and right\nWhen three values are specified, the first value applies to the top, the second to the left and right,the third to the bottom\nWhen four values are specified, the margins apply to the top, right, bottom and left in that order (clockwise) respectively.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Margins"
+    ]
+  },
+  {
+    "objectID": "2.CSS/07_margins.html#horizontally-centering-an-element",
+    "href": "2.CSS/07_margins.html#horizontally-centering-an-element",
+    "title": "CSS Margins",
+    "section": "Horizontally Centering an Element",
+    "text": "Horizontally Centering an Element\nWe can center an element by setting the left and right margins to auto.\ndiv {\n    margin: 0 auto;\n    width: 200px;\n    height: 200px;\n    border: 5px solid green;\n    background: lightgrey;\n}\nResult:",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Margins"
+    ]
+  },
+  {
+    "objectID": "2.CSS/07_margins.html#the-inherit-value",
+    "href": "2.CSS/07_margins.html#the-inherit-value",
+    "title": "CSS Margins",
+    "section": "The inherit Value",
+    "text": "The inherit Value\nSince the inherit value is a global value, it can work on almost all the CSS properties\nBelow is an example of a child element inheriting margin from its parent element.\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;title&gt;deepconclusions&lt;/title&gt;\n        &lt;style type=\"text/css\"&gt;\n            div#parent {\n                margin-left: 50px;\n                border: 5px solid green;\n            }\n\n            p#child {\n                margin-left: inherit;\n            }\n        &lt;/style&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;h3&gt;The inherit Global Value&lt;/h3&gt;\n        &lt;div id=\"parent\"&gt;\n            &lt;p id=\"child\"&gt;This element's left margin is inherited from the parent&lt;/p&gt;\n        &lt;/div&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\nResult:\n\n\nThis element’s left margin is inherited from the parent\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Margins"
+    ]
+  },
+  {
+    "objectID": "2.CSS/09_width_and_height.html",
+    "href": "2.CSS/09_width_and_height.html",
+    "title": "CSS Width, Height",
+    "section": "",
+    "text": "The width and height CSS properties set the width/heght of an element.\nBy default, these properties define the width/height of the content area/box\nValid values:\n\n&lt;length&gt;\n&lt;percentage&gt;\nauto: calculates and selects a width/height for the element\nmax-content: the intrinsic prefered width\nmin-content: the intrinsic minimum height\navailable: containing block width minus horizontal margin, border and padding\nfit-content: the larger of: the intrinsic minimum width; the smaller of the intrinsic preferred width and the available width\n\n\n\n\nThe width and height attributes only set the area inside the padding, border and margin of the element anddoes not include them.\n\n\nExample:\nHere is an example of the width CSS property\n#div1 {\n    width: 200px;\n}\n\n#div2 {\n    width: 5em;\n}\n\n#div3 {\n    width: 75%;\n}\n\n#div4 {\n    width: auto;\n}\n\ndiv {\n    height: 200px;\n    border: 2px solid red;\n    margin: 5px;\n}\nResult:\n\n\n\n\n\n\n\n\n\n\n\n\nExample:\nHere is an example of the height CSS property\n#div1 {\n    height: 200px;\n}\n\n#div2 {\n    height: 5em;\n}\n\n#div3 {\n    height: 75%;\n}\n\n#div4 {\n    height: auto;\n}\n\ndiv {\n    height: 200px;\n    border: 2px solid red;\n    margin: 5px;\n}\nResult:",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Width, Height"
+    ]
+  },
+  {
+    "objectID": "2.CSS/09_width_and_height.html#width-and-height",
+    "href": "2.CSS/09_width_and_height.html#width-and-height",
+    "title": "CSS Width, Height",
+    "section": "",
+    "text": "The width and height CSS properties set the width/heght of an element.\nBy default, these properties define the width/height of the content area/box\nValid values:\n\n&lt;length&gt;\n&lt;percentage&gt;\nauto: calculates and selects a width/height for the element\nmax-content: the intrinsic prefered width\nmin-content: the intrinsic minimum height\navailable: containing block width minus horizontal margin, border and padding\nfit-content: the larger of: the intrinsic minimum width; the smaller of the intrinsic preferred width and the available width\n\n\n\n\nThe width and height attributes only set the area inside the padding, border and margin of the element anddoes not include them.\n\n\nExample:\nHere is an example of the width CSS property\n#div1 {\n    width: 200px;\n}\n\n#div2 {\n    width: 5em;\n}\n\n#div3 {\n    width: 75%;\n}\n\n#div4 {\n    width: auto;\n}\n\ndiv {\n    height: 200px;\n    border: 2px solid red;\n    margin: 5px;\n}\nResult:\n\n\n\n\n\n\n\n\n\n\n\n\nExample:\nHere is an example of the height CSS property\n#div1 {\n    height: 200px;\n}\n\n#div2 {\n    height: 5em;\n}\n\n#div3 {\n    height: 75%;\n}\n\n#div4 {\n    height: auto;\n}\n\ndiv {\n    height: 200px;\n    border: 2px solid red;\n    margin: 5px;\n}\nResult:",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Width, Height"
+    ]
+  },
+  {
+    "objectID": "2.CSS/09_width_and_height.html#minimum-and-maximum-widths-and-heights",
+    "href": "2.CSS/09_width_and_height.html#minimum-and-maximum-widths-and-heights",
+    "title": "CSS Width, Height",
+    "section": "Minimum and Maximum Widths and Heights",
+    "text": "Minimum and Maximum Widths and Heights\nThe following properties define CSS minimum and maximum widths and heights\n\nmin-width: sets the minimum width of an element.\nmax-width: sets the maximum width of an element.\nmin-height: sets the minimum height of an element.\nmax-height: sets the maximum height of an element\n\nValid values:\n\n&lt;length&gt;\n&lt;percentage&gt;\n\n\nExamples\nHere’s an example of the min-width CSS property.\np {\n    min-width: 500px;\n    background: lightblue;\n}\nResult:\n\nHere’s an example of the min-width CSS property.\n\nHere’s an example of the max-width CSS property.\np {\n    max-width: 250px;\n    background: lightgreen;\n}\nResult:\n\nHere’s an example of the max-width CSS property.\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Width, Height"
+    ]
+  },
+  {
+    "objectID": "2.CSS/03_inserting.html",
+    "href": "2.CSS/03_inserting.html",
+    "title": "CSS Inserting",
+    "section": "",
+    "text": "Inserting CSS into an HTML document can be done in several ways:",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Inserting"
+    ]
+  },
+  {
+    "objectID": "2.CSS/03_inserting.html#css-inserting",
+    "href": "2.CSS/03_inserting.html#css-inserting",
+    "title": "CSS Inserting",
+    "section": "",
+    "text": "Inserting CSS into an HTML document can be done in several ways:",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Inserting"
+    ]
+  },
+  {
+    "objectID": "2.CSS/03_inserting.html#external-css",
+    "href": "2.CSS/03_inserting.html#external-css",
+    "title": "CSS Inserting",
+    "section": "External CSS",
+    "text": "External CSS\nThis method involves linking an external CSS file to your HTML document using the &lt;link&gt; element within the &lt;head&gt; section of your HTML file. This is the recommended method for larger projects as it keeps your HTML and CSS separate, making your code more maintainable and easier to manage.\nExample:\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n  &lt;link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\"&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;!-- Your HTML content here --&gt;\n&lt;/body&gt;\n&lt;/html&gt;\nIn this example, the CSS file styles.css and the HTML file are saved in the same directory/folder\nYou can try it as well, just follow these steps.\n\nCreate a folder in root directory.\nSave the HTML file in that folder.\nSave the style.css file in that folder.\nRun/Open the HTML file using any browser",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Inserting"
+    ]
+  },
+  {
+    "objectID": "2.CSS/03_inserting.html#internal-css",
+    "href": "2.CSS/03_inserting.html#internal-css",
+    "title": "CSS Inserting",
+    "section": "Internal CSS",
+    "text": "Internal CSS\nWith this method, CSS rules are written directly within the &lt;style&gt; element in the &lt;head&gt; section of your HTML document. This is useful for small-scale projects or when you need to apply specific styles to a single page.\nExample:\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n  &lt;style&gt;\n    /* CSS rules here */\n    body {\n      background-color: #f0f0f0;\n    }\n    h1 {\n      color: blue;\n    }\n  &lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;!-- Your HTML content here --&gt;\n&lt;/body&gt;\n&lt;/html&gt;\nIn this example, CSS rules are defined within the &lt;style&gt; element.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Inserting"
+    ]
+  },
+  {
+    "objectID": "2.CSS/03_inserting.html#inline-css",
+    "href": "2.CSS/03_inserting.html#inline-css",
+    "title": "CSS Inserting",
+    "section": "Inline CSS",
+    "text": "Inline CSS\nThis method involves applying CSS styles directly to individual HTML elements using the style attribute. While this approach provides the most immediate control over styling, it’s generally considered less maintainable and should be used sparingly.\nExample:\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;body&gt;\n\n&lt;h1 style=\"color: blue;\"&gt;This is a heading&lt;/h1&gt;\n&lt;p style=\"font-size: 16px;\"&gt;This is a paragraph.&lt;/p&gt;\n\n&lt;/body&gt;\n&lt;/html&gt;\nIn this example, inline styles are applied directly to the &lt;h1&gt; and &lt;p&gt; elements using the style attribute.\n\n\nNote!\n\n\nChoose the method that best fits your project’s requirements and development workflow. For larger projects, external CSS files linked via link elements are generally preferred, while smaller projects or quick prototyping may benefit from internal or inline CSS.\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "2.CSS",
+      "CSS Inserting"
+    ]
+  },
+  {
+    "objectID": "1.HTML/02_editors.html",
+    "href": "1.HTML/02_editors.html",
+    "title": "deep-web",
+    "section": "",
+    "text": "Creating and editing HTML files is relatively straightforward, and you can do it using a variety of tools and software. Here are some common methods and tools:\n\nText Editors: You can use basic text editors like Notepad (Windows), TextEdit (Mac), or any other plain text editor available on your operating system. Simply open the text editor, write your HTML code, and save the file with a .html extension.\nIntegrated Development Environments (IDEs): IDEs like Visual Studio Code, Sublime Text, Atom, or Brackets provide more advanced features specifically designed for coding. They offer syntax highlighting, code completion, and various plugins/extensions for web development, making coding HTML more efficient.\nOnline HTML Editors: Several websites offer online HTML editors where you can write and test HTML code directly in your web browser. Some popular options include CodePen, JSFiddle, and JS Bin. These platforms often provide real-time previews of your code, making it easy to see how changes affect the webpage.\nContent Management Systems (CMS): If you’re creating web pages for a website or blog, you might use a CMS like WordPress, Joomla, or Drupal. These platforms often have built-in editors that allow you to create and edit content using a visual interface. However, you can usually access the underlying HTML code for more precise control over the layout and design.\nCommand Line: For more advanced users, you can use command-line text editors like Vim or Emacs to create and edit HTML files directly from the terminal or command prompt.\n\n\n\n\nIn these tutorials, we’ll use JSFiddle for editing our code and observing the results.\n\n\n\n\n\n\n\nOnce you’ve chosen a method and tool for creating/editing HTML files, you can start by:\n\nOpening the chosen editor or tool.\nWriting your HTML code, including tags like &lt;html&gt;, &lt;head&gt;, &lt;body&gt;, etc., to structure your webpage.\nAdding content like text, images, links, and other HTML elements as needed.\nSaving the file with a .html extension to your computer.\n\nAfter creating your HTML file, you can open it in a web browser to preview how it looks. Simply double-click the file, and it should open in your default web browser, displaying the webpage you’ve created.\nRemember to test your HTML code across different web browsers to ensure compatibility and to validate it using tools like the W3C Markup Validation Service to catch any errors or issues.\n\n\n\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Editors"
+    ]
+  },
+  {
+    "objectID": "1.HTML/02_editors.html#html-editors",
+    "href": "1.HTML/02_editors.html#html-editors",
+    "title": "deep-web",
+    "section": "",
+    "text": "Creating and editing HTML files is relatively straightforward, and you can do it using a variety of tools and software. Here are some common methods and tools:\n\nText Editors: You can use basic text editors like Notepad (Windows), TextEdit (Mac), or any other plain text editor available on your operating system. Simply open the text editor, write your HTML code, and save the file with a .html extension.\nIntegrated Development Environments (IDEs): IDEs like Visual Studio Code, Sublime Text, Atom, or Brackets provide more advanced features specifically designed for coding. They offer syntax highlighting, code completion, and various plugins/extensions for web development, making coding HTML more efficient.\nOnline HTML Editors: Several websites offer online HTML editors where you can write and test HTML code directly in your web browser. Some popular options include CodePen, JSFiddle, and JS Bin. These platforms often provide real-time previews of your code, making it easy to see how changes affect the webpage.\nContent Management Systems (CMS): If you’re creating web pages for a website or blog, you might use a CMS like WordPress, Joomla, or Drupal. These platforms often have built-in editors that allow you to create and edit content using a visual interface. However, you can usually access the underlying HTML code for more precise control over the layout and design.\nCommand Line: For more advanced users, you can use command-line text editors like Vim or Emacs to create and edit HTML files directly from the terminal or command prompt.\n\n\n\n\nIn these tutorials, we’ll use JSFiddle for editing our code and observing the results.\n\n\n\n\n\n\n\nOnce you’ve chosen a method and tool for creating/editing HTML files, you can start by:\n\nOpening the chosen editor or tool.\nWriting your HTML code, including tags like &lt;html&gt;, &lt;head&gt;, &lt;body&gt;, etc., to structure your webpage.\nAdding content like text, images, links, and other HTML elements as needed.\nSaving the file with a .html extension to your computer.\n\nAfter creating your HTML file, you can open it in a web browser to preview how it looks. Simply double-click the file, and it should open in your default web browser, displaying the webpage you’ve created.\nRemember to test your HTML code across different web browsers to ensure compatibility and to validate it using tools like the W3C Markup Validation Service to catch any errors or issues.\n\n\n\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Editors"
+    ]
+  },
+  {
+    "objectID": "1.HTML/comments.html",
+    "href": "1.HTML/comments.html",
+    "title": "HTML Comments",
+    "section": "",
+    "text": "HTML comments are text, phrases or sentences inside an HTML file.\nThey are only shown in codes and not rendered by a browser.\n\n\nHTML comments help both beginners and experienced web developers to easily organize their codes.\nThey act like sticky notes in HTML files\n\n\n\nAn HTML comment starts with &lt;!-- and ends with --&gt;. It looks like this:\n&lt;!-- comments go here --&gt;\n\n\n\n\nSee the Pen  HTML_comments by deepconclusions (@deepconclusions) on CodePen.\n\n\nOn the example given above, you have learned that you make a single-line and multi-line of HTML comments.\nAnd if you have noticed we have also put comments beside a start tag and end tag.\nThat is for us to easily recognize where a specific element starts and ends.\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Comments"
+    ]
+  },
+  {
+    "objectID": "1.HTML/comments.html#comments",
+    "href": "1.HTML/comments.html#comments",
+    "title": "HTML Comments",
+    "section": "",
+    "text": "HTML comments are text, phrases or sentences inside an HTML file.\nThey are only shown in codes and not rendered by a browser.\n\n\nHTML comments help both beginners and experienced web developers to easily organize their codes.\nThey act like sticky notes in HTML files\n\n\n\nAn HTML comment starts with &lt;!-- and ends with --&gt;. It looks like this:\n&lt;!-- comments go here --&gt;\n\n\n\n\nSee the Pen  HTML_comments by deepconclusions (@deepconclusions) on CodePen.\n\n\nOn the example given above, you have learned that you make a single-line and multi-line of HTML comments.\nAnd if you have noticed we have also put comments beside a start tag and end tag.\nThat is for us to easily recognize where a specific element starts and ends.\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Comments"
+    ]
+  },
+  {
+    "objectID": "1.HTML/10_tables.html",
+    "href": "1.HTML/10_tables.html",
+    "title": "HTML Tables",
+    "section": "",
+    "text": "HTML tables are used to display data in a tabular format, which is organized into rows and columns. Tables are an essential tool for presenting structured data clearly and concisely. Understanding how to create and format tables is crucial for web development.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Tables"
+    ]
+  },
+  {
+    "objectID": "1.HTML/10_tables.html#tables",
+    "href": "1.HTML/10_tables.html#tables",
+    "title": "HTML Tables",
+    "section": "",
+    "text": "HTML tables are used to display data in a tabular format, which is organized into rows and columns. Tables are an essential tool for presenting structured data clearly and concisely. Understanding how to create and format tables is crucial for web development.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Tables"
+    ]
+  },
+  {
+    "objectID": "1.HTML/10_tables.html#basic-structure-of-an-html-table",
+    "href": "1.HTML/10_tables.html#basic-structure-of-an-html-table",
+    "title": "HTML Tables",
+    "section": "Basic Structure of an HTML Table",
+    "text": "Basic Structure of an HTML Table\nAn HTML table is created using the &lt;table&gt; element. Inside the table, rows are defined using the &lt;tr&gt; (table row) element, headers using the &lt;th&gt; (table header) element, and data cells using the &lt;td&gt; (table data) element.\nExample:\n&lt;table&gt;\n  &lt;tr&gt;\n    &lt;th&gt;Header 1&lt;/th&gt;\n    &lt;th&gt;Header 2&lt;/th&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n    &lt;td&gt;Data 1&lt;/td&gt;\n    &lt;td&gt;Data 2&lt;/td&gt;\n  &lt;/tr&gt;\n&lt;/table&gt;\nOutput:\n\n\n\nHeader 1\n\n\nHeader 2\n\n\n\n\nData 1\n\n\nData 2\n\n\n\nIn this example, the table has one header row and one data row.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Tables"
+    ]
+  },
+  {
+    "objectID": "1.HTML/10_tables.html#table-elements-and-attributes",
+    "href": "1.HTML/10_tables.html#table-elements-and-attributes",
+    "title": "HTML Tables",
+    "section": "Table Elements and Attributes",
+    "text": "Table Elements and Attributes\n\n1. Table Headers\nTable headers are defined using the &lt;th&gt; element. Headers are typically displayed in bold and centered text.\n&lt;tr&gt;\n  &lt;th&gt;Header 1&lt;/th&gt;\n  &lt;th&gt;Header 2&lt;/th&gt;\n&lt;/tr&gt;\n\n\n2. Table Rows\nTable rows are defined using the &lt;tr&gt; element. Each row contains header or data cells.\n&lt;tr&gt;\n  &lt;td&gt;Data 1&lt;/td&gt;\n  &lt;td&gt;Data 2&lt;/td&gt;\n&lt;/tr&gt;\n\n\n3. Table Data\nTable data cells are defined using the &lt;td&gt; element. These cells hold the actual data.\n&lt;td&gt;Data 1&lt;/td&gt;\n&lt;td&gt;Data 2&lt;/td&gt;\n\n\n\n\n\n\n\n4. Table Caption\nThe &lt;caption&gt; element provides a title or caption for the table, which is typically displayed above the table.\n&lt;table&gt;\n  &lt;caption&gt;Table Title&lt;/caption&gt;\n  &lt;tr&gt;\n    &lt;th&gt;Header 1&lt;/th&gt;\n    &lt;th&gt;Header 2&lt;/th&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n    &lt;td&gt;Data 1&lt;/td&gt;\n    &lt;td&gt;Data 2&lt;/td&gt;\n  &lt;/tr&gt;\n&lt;/table&gt;\nResult:\n\n\nTable Title\n\n\n\nHeader 1\n\n\nHeader 2\n\n\n\n\nData 1\n\n\nData 2\n\n\n\n\n\n5. Table Sectioning Elements\nTables can be divided into sections using the &lt;thead&gt;, &lt;tbody&gt;, and &lt;tfoot&gt; elements for better structure and styling.\n\n&lt;thead&gt;: Contains the header rows.\n&lt;tbody&gt;: Contains the body rows.\n&lt;tfoot&gt;: Contains the footer rows.\n\n&lt;table&gt;\n  &lt;thead&gt;\n    &lt;tr&gt;\n      &lt;th&gt;Header 1&lt;/th&gt;\n      &lt;th&gt;Header 2&lt;/th&gt;\n    &lt;/tr&gt;\n  &lt;/thead&gt;\n  &lt;tbody&gt;\n    &lt;tr&gt;\n      &lt;td&gt;Data 1&lt;/td&gt;\n      &lt;td&gt;Data 2&lt;/td&gt;\n    &lt;/tr&gt;\n    &lt;tr&gt;\n      &lt;td&gt;Data 3&lt;/td&gt;\n      &lt;td&gt;Data 4&lt;/td&gt;\n    &lt;/tr&gt;\n  &lt;/tbody&gt;\n  &lt;tfoot&gt;\n    &lt;tr&gt;\n      &lt;td&gt;Footer 1&lt;/td&gt;\n      &lt;td&gt;Footer 2&lt;/td&gt;\n    &lt;/tr&gt;\n  &lt;/tfoot&gt;\n&lt;/table&gt;\nResult\n\n\n\n\nHeader 1\n\n\nHeader 2\n\n\n\n\n\n\nData 1\n\n\nData 2\n\n\n\n\nData 3\n\n\nData 4\n\n\n\n\n\n\nFooter 1\n\n\nFooter 2\n\n\n\n\n\n\n6. Colspan and Rowspan\n\ncolspan: Merges multiple columns into a single cell.\nrowspan: Merges multiple rows into a single cell.\n\n&lt;table&gt;\n  &lt;tr&gt;\n    &lt;th&gt;Header 1&lt;/th&gt;\n    &lt;th colspan=\"2\"&gt;Merged Header 2 and 3&lt;/th&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n    &lt;td&gt;Data 1&lt;/td&gt;\n    &lt;td&gt;Data 2&lt;/td&gt;\n    &lt;td&gt;Data 3&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n    &lt;td rowspan=\"2\"&gt;Merged Data 1 and 2&lt;/td&gt;\n    &lt;td&gt;Data 4&lt;/td&gt;\n    &lt;td&gt;Data 5&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n    &lt;td&gt;Data 6&lt;/td&gt;\n    &lt;td&gt;Data 7&lt;/td&gt;\n  &lt;/tr&gt;\n&lt;/table&gt;\nResult\n\n\n\nHeader 1\n\n\nMerged Header 2 and 3\n\n\n\n\nData 1\n\n\nData 2\n\n\nData 3\n\n\n\n\nMerged Data 1 and 2\n\n\nData 4\n\n\nData 5\n\n\n\n\nData 6\n\n\nData 7",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Tables"
+    ]
+  },
+  {
+    "objectID": "1.HTML/10_tables.html#example-of-a-fully-utilized-html-table",
+    "href": "1.HTML/10_tables.html#example-of-a-fully-utilized-html-table",
+    "title": "HTML Tables",
+    "section": "Example of a Fully Utilized HTML Table",
+    "text": "Example of a Fully Utilized HTML Table\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;title&gt;HTML Table Example&lt;/title&gt;\n  &lt;style&gt;\n    table {\n      width: 100%;\n      border-collapse: collapse;\n    }\n    th, td {\n      border: 1px solid black;\n      padding: 8px;\n      text-align: left;\n    }\n    th {\n      background-color: #f2f2f2;\n    }\n    caption {\n      caption-side: top;\n      font-size: 1.5em;\n      margin: 10px 0;\n    }\n  &lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;table&gt;\n    &lt;caption&gt;Employee Data&lt;/caption&gt;\n    &lt;thead&gt;\n      &lt;tr&gt;\n        &lt;th&gt;Name&lt;/th&gt;\n        &lt;th&gt;Position&lt;/th&gt;\n        &lt;th&gt;Age&lt;/th&gt;\n        &lt;th&gt;Salary&lt;/th&gt;\n      &lt;/tr&gt;\n    &lt;/thead&gt;\n    &lt;tbody&gt;\n      &lt;tr&gt;\n        &lt;td&gt;John Doe&lt;/td&gt;\n        &lt;td&gt;Manager&lt;/td&gt;\n        &lt;td&gt;45&lt;/td&gt;\n        &lt;td&gt;$100,000&lt;/td&gt;\n      &lt;/tr&gt;\n      &lt;tr&gt;\n        &lt;td&gt;Jane Smith&lt;/td&gt;\n        &lt;td&gt;Developer&lt;/td&gt;\n        &lt;td&gt;30&lt;/td&gt;\n        &lt;td&gt;$90,000&lt;/td&gt;\n      &lt;/tr&gt;\n      &lt;tr&gt;\n        &lt;td&gt;Sam Brown&lt;/td&gt;\n        &lt;td&gt;Designer&lt;/td&gt;\n        &lt;td&gt;25&lt;/td&gt;\n        &lt;td&gt;$70,000&lt;/td&gt;\n      &lt;/tr&gt;\n    &lt;/tbody&gt;\n    &lt;tfoot&gt;\n      &lt;tr&gt;\n        &lt;td colspan=\"3\"&gt;Total Employees&lt;/td&gt;\n        &lt;td&gt;3&lt;/td&gt;\n      &lt;/tr&gt;\n    &lt;/tfoot&gt;\n  &lt;/table&gt;\n&lt;/body&gt;\n&lt;/html&gt;\nResult:\n&lt;!DOCTYPE html&gt;\n\n\n\n\nHTML Table Example\n\n\n\n\n\n\nEmployee Data\n\n\n\n\nName\n\n\nPosition\n\n\nAge\n\n\nSalary\n\n\n\n\n\n\nJohn Doe\n\n\nManager\n\n\n45\n\n\n$100,000\n\n\n\n\nJane Smith\n\n\nDeveloper\n\n\n30\n\n\n$90,000\n\n\n\n\nSam Brown\n\n\nDesigner\n\n\n25\n\n\n$70,000\n\n\n\n\n\n\nTotal Employees\n\n\n3",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Tables"
+    ]
+  },
+  {
+    "objectID": "1.HTML/10_tables.html#conclusion",
+    "href": "1.HTML/10_tables.html#conclusion",
+    "title": "HTML Tables",
+    "section": "Conclusion",
+    "text": "Conclusion\nHTML tables are a powerful way to present data in a structured and readable format. By understanding the various table elements and attributes, you can create complex and visually appealing tables that enhance the presentation of your data. Properly using table sectioning elements and attributes like colspan and rowspan allows for more flexible and dynamic table layouts.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Tables"
+    ]
+  },
+  {
+    "objectID": "1.HTML/styles.html",
+    "href": "1.HTML/styles.html",
+    "title": "HTML Styles",
+    "section": "",
+    "text": "HTML Styles are used to style HTML elements it also means changing the default values.\nFor instance, styling cna change the default values of the text color as black, background color as white, text alignment as left and text size as 12 pixels.\n\n\nUsing an internal style sheet is also called internal styling.\nAn internal style sheet is composed of one or more cascading style sheet (css) rule set.\nA CSS rule-set consists of a selector and a declaration block sorrounded by curly braces that contains one or more CSS declarations separated by semicolons.\nEach declaration includes a CSS property name and a value, separated by a colon.\nThey are all enclosed inside the &lt;style&gt; element with its type=\"text/css\" attribute which is included inside the &lt;head&gt; element.\n\n\n\n&lt;style type=\"text/css\"&gt;\n  p{\n    font-size: 14px;\n  }\n\n\n\nThere will be alot of Internal Styling examples throughout the entire tutorial so just keep going and enjoy!\n\n\n\n\n\nInline styling is used to style elements using the style attribute with CSS declaration inside which are similar to internal styling.\n\n\n\n&lt;div style=\"property: value; property: value;\"&gt;&lt;/div&gt;\n\n\n\n\nSee the Pen  Untitled by deepconclusions (@deepconclusions) on CodePen.\n\n\n\n\n\n\nSee the Pen  Untitled by deepconclusions (@deepconclusions) on CodePen.\n\n\n\n\n\n\nSee the Pen  Text Sizing Example by deepconclusions (@deepconclusions) on CodePen.\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Styles"
+    ]
+  },
+  {
+    "objectID": "1.HTML/styles.html#styles",
+    "href": "1.HTML/styles.html#styles",
+    "title": "HTML Styles",
+    "section": "",
+    "text": "HTML Styles are used to style HTML elements it also means changing the default values.\nFor instance, styling cna change the default values of the text color as black, background color as white, text alignment as left and text size as 12 pixels.\n\n\nUsing an internal style sheet is also called internal styling.\nAn internal style sheet is composed of one or more cascading style sheet (css) rule set.\nA CSS rule-set consists of a selector and a declaration block sorrounded by curly braces that contains one or more CSS declarations separated by semicolons.\nEach declaration includes a CSS property name and a value, separated by a colon.\nThey are all enclosed inside the &lt;style&gt; element with its type=\"text/css\" attribute which is included inside the &lt;head&gt; element.\n\n\n\n&lt;style type=\"text/css\"&gt;\n  p{\n    font-size: 14px;\n  }\n\n\n\nThere will be alot of Internal Styling examples throughout the entire tutorial so just keep going and enjoy!\n\n\n\n\n\nInline styling is used to style elements using the style attribute with CSS declaration inside which are similar to internal styling.\n\n\n\n&lt;div style=\"property: value; property: value;\"&gt;&lt;/div&gt;\n\n\n\n\nSee the Pen  Untitled by deepconclusions (@deepconclusions) on CodePen.\n\n\n\n\n\n\nSee the Pen  Untitled by deepconclusions (@deepconclusions) on CodePen.\n\n\n\n\n\n\nSee the Pen  Text Sizing Example by deepconclusions (@deepconclusions) on CodePen.\n\n\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Styles"
+    ]
+  },
+  {
+    "objectID": "1.HTML/links.html",
+    "href": "1.HTML/links.html",
+    "title": "HTML Links",
+    "section": "",
+    "text": "HTML Links are very necessary for all web pages. All websites have links. HTML Links are hyperlinks.\nLinks help users jump from their current web page location to another.\nTo make HTML links we just need to use the &lt;a&gt; element with the href attribute that specifies a URL to a page.\n\n\n\nstart tag &lt;a&gt;\nhref attribute eg href=\"index.html\"\nelement content. A text eg Home Page. It can also be an image and other HTML elements\nend tag &lt;a&gt;\n\n\n\n\n\n\n&lt;a href=\"file-in-the-same-folder.html\"&gt;Example&lt;/a&gt;\n\n\n\n\n\n\n&lt;a href=\"https://movies.deepconclusions.com/\"&gt;Movies&lt;/a&gt;\n\n\n\n\n\n\nWe can easily open a link in a new tab.\nTo do this, we need to use the target attribute with the value _blank.\nThis would be helpful if you do not want to your visitors to leave your website.\n&lt;a href=\"https://football.deepconclusions.com/\" target=\"_blank\"&gt;Movies&lt;/a&gt;\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Links"
+    ]
+  },
+  {
+    "objectID": "1.HTML/links.html#links",
+    "href": "1.HTML/links.html#links",
+    "title": "HTML Links",
+    "section": "",
+    "text": "HTML Links are very necessary for all web pages. All websites have links. HTML Links are hyperlinks.\nLinks help users jump from their current web page location to another.\nTo make HTML links we just need to use the &lt;a&gt; element with the href attribute that specifies a URL to a page.\n\n\n\nstart tag &lt;a&gt;\nhref attribute eg href=\"index.html\"\nelement content. A text eg Home Page. It can also be an image and other HTML elements\nend tag &lt;a&gt;\n\n\n\n\n\n\n&lt;a href=\"file-in-the-same-folder.html\"&gt;Example&lt;/a&gt;\n\n\n\n\n\n\n&lt;a href=\"https://movies.deepconclusions.com/\"&gt;Movies&lt;/a&gt;\n\n\n\n\n\n\nWe can easily open a link in a new tab.\nTo do this, we need to use the target attribute with the value _blank.\nThis would be helpful if you do not want to your visitors to leave your website.\n&lt;a href=\"https://football.deepconclusions.com/\" target=\"_blank\"&gt;Movies&lt;/a&gt;\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Links"
+    ]
+  },
+  {
+    "objectID": "1.HTML/03_elements.html",
+    "href": "1.HTML/03_elements.html",
+    "title": "HTML Elements",
+    "section": "",
+    "text": "In the first lesson, we have studied about tags and things like start tag and end tag.\nAn HTML element is usually composed of a “start tag”, “element content” and “end tag”\nExample:\n\nThis example HTML Element above is composed of the following:\n\nstart tag: &lt;p&gt;\nelement content: This is an element content\nend tag: &lt;/p&gt;\n\n\nNested HTML Elements\nThere are some cases that an HTML element can contain one or more HTML elements.\nFor you to better understand it look at the example below.\n\nThe example nested HTML Elements above are composed of the following:\n\nStart tag. &lt;p&gt;\nStart tag. &lt;i&gt;\nElement Content. Italicized text\nEnd tag &lt;/i&gt;\nEnd tag &lt;/p&gt;\n\nOn the example above, there are two start tags and two end tags\nThe second tag ie. &lt;i&gt; italicizes the text within.\n\n\nEmpty Elements\nEmpty Elements are elements that do not have an element content and an end tag.\nA list of commonly used Empty Elements:\n\n&lt;meta /&gt;\n&lt;link /&gt;\n&lt;img /&gt;\n&lt;br /&gt;\n&lt;hr /&gt;\n&lt;input /&gt;\n\nThe best practice in HTML Empty Elements is to always put a forward slash / sign before the greater than sign.\nIn this way, they are closed at their start tags.\n\nTo be among the first to hear about future updates of the course materials, simply enter your email below, follow us on  (formally Twitter), or subscribe to our  YouTube channel.\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "1.HTML",
+      "HTML Elements"
+    ]
+  }
+]
